@@ -1,0 +1,5515 @@
+[
+  {"sentence": "hi there!", "command": "greet"},
+  {"sentence": "hello!", "command": "greet"},
+  {"sentence": "hey!", "command": "greet"},
+  {"sentence": "hey there!", "command": "greet"},
+  {"sentence": "good morning", "command": "greet"},
+  {"sentence": "good afternoon", "command": "greet"},
+  {"sentence": "good evening", "command": "greet"},
+  {"sentence": "yo!", "command": "greet"},
+  {"sentence": "hiya!", "command": "greet"},
+  {"sentence": "howdy!", "command": "greet"},
+  {"sentence": "nice to see you", "command": "greet"},
+  {"sentence": "hello there", "command": "greet"},
+  {"sentence": "hey semion", "command": "greet"},
+  {"sentence": "hi semion", "command": "greet"},
+  {"sentence": "hello semion", "command": "greet"},
+
+  {"sentence": "hello", "command": "hello"},
+  {"sentence": "hi", "command": "hello"},
+  {"sentence": "hey", "command": "hello"},
+  {"sentence": "nice to meet you", "command": "hello"},
+  {"sentence": "hello there!", "command": "hello"},
+  {"sentence": "hi there!", "command": "hello"},
+  {"sentence": "hey there", "command": "hello"},
+  {"sentence": "it's nice to meet you", "command": "hello"},
+
+  {"sentence": "goodbye", "command": "goodbye"},
+  {"sentence": "bye", "command": "goodbye"},
+  {"sentence": "see you later", "command": "goodbye"},
+  {"sentence": "see ya", "command": "goodbye"},
+  {"sentence": "farewell", "command": "goodbye"},
+  {"sentence": "I have to go", "command": "goodbye"},
+  {"sentence": "talk to you later", "command": "goodbye"},
+  {"sentence": "I'll see you later", "command": "goodbye"},
+
+  {"sentence": "thanks", "command": "thanks"},
+  {"sentence": "thank you", "command": "thanks"},
+  {"sentence": "thank you so much", "command": "thanks"},
+  {"sentence": "thanks a lot", "command": "thanks"},
+  {"sentence": "I appreciate it", "command": "thanks"},
+  {"sentence": "that's helpful, thanks", "command": "thanks"},
+  {"sentence": "I appreciate your help", "command": "thanks"},
+  {"sentence": "many thanks", "command": "thanks"},
+
+  {"sentence": "how are you?", "command": "how_doing"},
+  {"sentence": "how are things?", "command": "how_doing"},
+  {"sentence": "how are you doing?", "command": "how_doing"},
+  {"sentence": "how's it going?", "command": "how_doing"},
+  {"sentence": "how have you been?", "command": "how_doing"},
+  {"sentence": "are you doing okay?", "command": "how_doing"},
+  {"sentence": "are you doing well?", "command": "how_doing"},
+
+  {"sentence": "I'm doing well", "command": "user_doing_well"},
+  {"sentence": "I'm doing good", "command": "user_doing_well"},
+  {"sentence": "I'm great", "command": "user_doing_well"},
+  {"sentence": "I'm doing great", "command": "user_doing_well"},
+  {"sentence": "I'm fine", "command": "user_doing_well"},
+  {"sentence": "I'm pretty good", "command": "user_doing_well"},
+  {"sentence": "I'm doing okay", "command": "user_doing_well"},
+  {"sentence": "things are going well", "command": "user_doing_well"},
+  {"sentence": "I'm having a good day", "command": "user_doing_well"},
+
+  {"sentence": "I'm doing badly", "command": "user_doing_bad"},
+  {"sentence": "I'm not doing well", "command": "user_doing_bad"},
+  {"sentence": "I'm having a bad day", "command": "user_doing_bad"},
+  {"sentence": "I'm feeling bad", "command": "user_doing_bad"},
+  {"sentence": "I'm feeling down", "command": "user_doing_bad"},
+  {"sentence": "things aren't going well", "command": "user_doing_bad"},
+  {"sentence": "I'm having a rough day", "command": "user_doing_bad"},
+  {"sentence": "today hasn't been very good", "command": "user_doing_bad"},
+
+  {"sentence": "what is your name?", "command": "name"},
+  {"sentence": "what's your name?", "command": "name"},
+  {"sentence": "who are you?", "command": "name"},
+  {"sentence": "tell me your name", "command": "name"},
+  {"sentence": "what should I call you?", "command": "name"},
+  {"sentence": "what are you called?", "command": "name"},
+  {"sentence": "do you have a name?", "command": "name"},
+
+  {"sentence": "what are you?", "command": "what_are_you"},
+  {"sentence": "what exactly are you?", "command": "what_are_you"},
+  {"sentence": "tell me what you are", "command": "what_are_you"},
+  {"sentence": "what is Semion?", "command": "what_are_you"},
+  {"sentence": "who is Semion?", "command": "what_are_you"},
+  {"sentence": "what kind of program are you?", "command": "what_are_you"},
+
+  {"sentence": "what can you do?", "command": "capabilities"},
+  {"sentence": "what are your capabilities?", "command": "capabilities"},
+  {"sentence": "what are you capable of?", "command": "capabilities"},
+  {"sentence": "what can Semion do?", "command": "capabilities"},
+  {"sentence": "what features do you have?", "command": "capabilities"},
+  {"sentence": "what do you know how to do?", "command": "capabilities"},
+  {"sentence": "what can I ask you?", "command": "capabilities"},
+
+  {"sentence": "how do you work?", "command": "how_work"},
+  {"sentence": "how does Semion work?", "command": "how_work"},
+  {"sentence": "how do you understand things?", "command": "how_work"},
+  {"sentence": "how does your model work?", "command": "how_work"},
+  {"sentence": "how do you process language?", "command": "how_work"},
+  {"sentence": "how do you determine what I mean?", "command": "how_work"},
+  {"sentence": "how do you figure out what I'm saying?", "command": "how_work"},
+
+  {"sentence": "who created you?", "command": "creator"},
+  {"sentence": "who made you?", "command": "creator"},
+  {"sentence": "who built you?", "command": "creator"},
+  {"sentence": "who is your creator?", "command": "creator"},
+  {"sentence": "who programmed you?", "command": "creator"},
+  {"sentence": "who developed Semion?", "command": "creator"},
+  {"sentence": "who made Semion?", "command": "creator"},
+
+  {"sentence": "why were you made?", "command": "why_made"},
+  {"sentence": "why did Evan make you?", "command": "why_made"},
+  {"sentence": "why was Semion created?", "command": "why_made"},
+  {"sentence": "why did you get created?", "command": "why_made"},
+  {"sentence": "what inspired your creation?", "command": "why_made"},
+  {"sentence": "what was the reason for making you?", "command": "why_made"},
+  {"sentence": "why did someone build you?", "command": "why_made"},
+
+  {"sentence": "what is your purpose?", "command": "purpose"},
+  {"sentence": "why do you exist?", "command": "purpose"},
+  {"sentence": "what are you designed for?", "command": "purpose"},
+  {"sentence": "what is Semion's purpose?", "command": "purpose"},
+  {"sentence": "what is the purpose of Semion?", "command": "purpose"},
+  {"sentence": "what are you meant to do?", "command": "purpose"},
+
+  {"sentence": "you're great", "command": "compliment"},
+  {"sentence": "you're awesome", "command": "compliment"},
+  {"sentence": "good job", "command": "compliment"},
+  {"sentence": "you're really helpful", "command": "compliment"},
+  {"sentence": "you're smart", "command": "compliment"},
+  {"sentence": "I like you", "command": "compliment"},
+  {"sentence": "that's impressive", "command": "compliment"},
+  {"sentence": "you're doing a great job", "command": "compliment"},
+
+  {"sentence": "tell me a joke", "command": "joke"},
+  {"sentence": "can you tell me a joke?", "command": "joke"},
+  {"sentence": "say something funny", "command": "joke"},
+  {"sentence": "make me laugh", "command": "joke"},
+  {"sentence": "do you know any jokes?", "command": "joke"},
+  {"sentence": "give me a funny joke", "command": "joke"},
+  {"sentence": "tell me something funny", "command": "joke"},
+
+  {"sentence": "tell me about math", "command": "math"},
+  {"sentence": "what is mathematics?", "command": "math"},
+  {"sentence": "do you like math?", "command": "math"},
+  {"sentence": "why is math important?", "command": "math"},
+  {"sentence": "how does math relate to you?", "command": "math"},
+  {"sentence": "what does mathematics have to do with you?", "command": "math"},
+  {"sentence": "are you based on mathematics?", "command": "math"},
+
+  {"sentence": "how much wood would a woodchuck chuck?", "command": "woodchuck"},
+  {"sentence": "what would a woodchuck chuck?", "command": "woodchuck"},
+   {"sentence": "how much wood would a woodchuck chuck if a woodchuck could chuck wood?", "command": "woodchuck"},
+
+  {"sentence": "I have a question", "command": "question"},
+  {"sentence": "can I ask you something?", "command": "question"},
+  {"sentence": "I have something to ask", "command": "question"},
+  {"sentence": "can I ask a question?", "command": "question"},
+  {"sentence": "I want to ask you something", "command": "question"},
+  {"sentence": "here's my question", "command": "question"},
+  {"sentence": "I have a question for you", "command": "question"},
+
+  {"sentence": "how old are you?", "command": "age"},
+  {"sentence": "what is your age?", "command": "age"},
+  {"sentence": "when were you created?", "command": "age"},
+  {"sentence": "are you old?", "command": "age"},
+  {"sentence": "how long have you existed?", "command": "age"},
+  {"sentence": "when were you made?", "command": "age"},
+
+  {"sentence": "are you human?", "command": "human"},
+  {"sentence": "are you a person?", "command": "human"},
+  {"sentence": "are you a human being?", "command": "human"},
+  {"sentence": "are you actually human?", "command": "human"},
+  {"sentence": "is Semion human?", "command": "human"},
+  {"sentence": "do you have a human body?", "command": "human"},
+
+  {"sentence": "are you an AI?", "command": "ai"},
+  {"sentence": "are you artificial intelligence?", "command": "ai"},
+  {"sentence": "is Semion AI?", "command": "ai"},
+  {"sentence": "what kind of AI are you?", "command": "ai"},
+  {"sentence": "are you a language model?", "command": "ai"},
+  {"sentence": "are you a large language model?", "command": "ai"},
+  {"sentence": "are you a small language model?", "command": "ai"},
+
+  {"sentence": "do you understand language?", "command": "understand"},
+  {"sentence": "do you actually understand me?", "command": "understand"},
+  {"sentence": "how do you understand language?", "command": "understand"},
+  {"sentence": "can you understand what I say?", "command": "understand"},
+  {"sentence": "how do you understand words?", "command": "understand"},
+  {"sentence": "do you understand human language?", "command": "understand"},
+
+  {"sentence": "what is language?", "command": "language"},
+  {"sentence": "tell me about language", "command": "language"},
+  {"sentence": "how does language work?", "command": "language"},
+  {"sentence": "why is language complicated?", "command": "language"},
+  {"sentence": "how do computers represent language?", "command": "language"},
+  {"sentence": "what does language have to do with math?", "command": "language"},
+
+  {"sentence": "what is a vector?", "command": "vector"},
+  {"sentence": "what are vectors?", "command": "vector"},
+  {"sentence": "explain vectors", "command": "vector"},
+  {"sentence": "how do vectors work?", "command": "vector"},
+  {"sentence": "what is a semantic vector?", "command": "vector"},
+  {"sentence": "how do you use vectors?", "command": "vector"},
+  {"sentence": "what do vectors represent?", "command": "vector"},
+
+  {"sentence": "what is similarity?", "command": "similarity"},
+  {"sentence": "how do you compare meanings?", "command": "similarity"},
+  {"sentence": "how do you measure similarity?", "command": "similarity"},
+  {"sentence": "what is cosine similarity?", "command": "similarity"},
+  {"sentence": "how does cosine similarity work?", "command": "similarity"},
+  {"sentence": "how do you determine which meaning is closest?", "command": "similarity"},
+  {"sentence": "how do you compare semantic vectors?", "command": "similarity"},
+
+  {"sentence": "what does semantic mean?", "command": "semantic"},
+  {"sentence": "what is semantics?", "command": "semantic"},
+  {"sentence": "what does semantics mean?", "command": "semantic"},
+  {"sentence": "tell me about semantics", "command": "semantic"},
+  {"sentence": "what is semantic meaning?", "command": "semantic"},
+  {"sentence": "how does semantics relate to language?", "command": "semantic"},
+  {"sentence": "what is semantic language processing?", "command": "semantic"},
+
+  {"sentence":"hi there!","command":"greet"},
+  {"sentence":"hello!","command":"greet"},
+  {"sentence":"hey!","command":"greet"},
+  {"sentence":"hey there!","command":"greet"},
+  {"sentence":"good morning","command":"greet"},
+  {"sentence":"good afternoon","command":"greet"},
+  {"sentence":"good evening","command":"greet"},
+  {"sentence":"yo!","command":"greet"},
+  {"sentence":"hiya!","command":"greet"},
+  {"sentence":"howdy!","command":"greet"},
+  {"sentence":"hey, what's up?","command":"greet"},
+  {"sentence":"hi, what's up?","command":"greet"},
+  {"sentence":"hello there","command":"greet"},
+  {"sentence":"hey semion","command":"greet"},
+  {"sentence":"hi semion","command":"greet"},
+  {"sentence":"hello semion","command":"greet"},
+  {"sentence":"hey buddy","command":"greet"},
+  {"sentence":"hi buddy","command":"greet"},
+  {"sentence":"hey friend","command":"greet"},
+  {"sentence":"hello friend","command":"greet"},
+  {"sentence":"good to see you","command":"greet"},
+  {"sentence":"nice to see you","command":"greet"},
+  {"sentence":"hey, how's it going?","command":"greet"},
+  {"sentence":"hi, how's it going?","command":"greet"},
+  {"sentence":"well hello","command":"greet"},
+  {"sentence":"hello again","command":"greet"},
+  {"sentence":"hey again","command":"greet"},
+  {"sentence":"hi everyone","command":"greet"},
+  {"sentence":"hello everyone","command":"greet"},
+  {"sentence":"greetings","command":"greet"},
+  {"sentence":"greetings semion","command":"greet"},
+  {"sentence":"sup","command":"greet"},
+  {"sentence":"what's up","command":"greet"},
+  {"sentence":"hey yo","command":"greet"},
+  {"sentence":"hiya semion","command":"greet"},
+  {"sentence":"morning","command":"greet"},
+  {"sentence":"afternoon","command":"greet"},
+  {"sentence":"evening","command":"greet"},
+  {"sentence":"howdy semion","command":"greet"},
+  {"sentence":"hello hello","command":"greet"},
+
+  {"sentence":"hello","command":"hello"},
+  {"sentence":"hi","command":"hello"},
+  {"sentence":"hey","command":"hello"},
+  {"sentence":"nice to meet you","command":"hello"},
+  {"sentence":"it's nice to meet you","command":"hello"},
+  {"sentence":"hello there","command":"hello"},
+  {"sentence":"hi there","command":"hello"},
+  {"sentence":"hey there","command":"hello"},
+  {"sentence":"pleased to meet you","command":"hello"},
+  {"sentence":"nice meeting you","command":"hello"},
+  {"sentence":"good to meet you","command":"hello"},
+  {"sentence":"it's good to meet you","command":"hello"},
+  {"sentence":"glad to meet you","command":"hello"},
+  {"sentence":"hello, nice to meet you","command":"hello"},
+  {"sentence":"hi, nice to meet you","command":"hello"},
+  {"sentence":"hey, nice to meet you","command":"hello"},
+  {"sentence":"hello semion","command":"hello"},
+  {"sentence":"hi semion","command":"hello"},
+  {"sentence":"hey semion","command":"hello"},
+  {"sentence":"hello again","command":"hello"},
+  {"sentence":"hi again","command":"hello"},
+  {"sentence":"hey again","command":"hello"},
+  {"sentence":"hello friend","command":"hello"},
+  {"sentence":"hi friend","command":"hello"},
+  {"sentence":"hey friend","command":"hello"},
+  {"sentence":"greetings","command":"hello"},
+  {"sentence":"greetings semion","command":"hello"},
+  {"sentence":"welcome","command":"hello"},
+  {"sentence":"well hello","command":"hello"},
+  {"sentence":"hello there semion","command":"hello"},
+  {"sentence":"hi there semion","command":"hello"},
+  {"sentence":"hey there semion","command":"hello"},
+  {"sentence":"good to see you","command":"hello"},
+  {"sentence":"nice seeing you","command":"hello"},
+  {"sentence":"pleased to see you","command":"hello"},
+  {"sentence":"hello, how are you?","command":"hello"},
+  {"sentence":"hi, how are you?","command":"hello"},
+  {"sentence":"hey, how are you?","command":"hello"},
+  {"sentence":"hello again semion","command":"hello"},
+  {"sentence":"hi again semion","command":"hello"},
+  {"sentence":"hey again semion","command":"hello"},
+
+  {"sentence":"goodbye","command":"goodbye"},
+  {"sentence":"bye","command":"goodbye"},
+  {"sentence":"bye bye","command":"goodbye"},
+  {"sentence":"see you later","command":"goodbye"},
+  {"sentence":"see ya","command":"goodbye"},
+  {"sentence":"see you","command":"goodbye"},
+  {"sentence":"farewell","command":"goodbye"},
+  {"sentence":"I'm leaving","command":"goodbye"},
+  {"sentence":"I have to go","command":"goodbye"},
+  {"sentence":"I need to go","command":"goodbye"},
+  {"sentence":"I've got to go","command":"goodbye"},
+  {"sentence":"talk to you later","command":"goodbye"},
+  {"sentence":"I'll talk to you later","command":"goodbye"},
+  {"sentence":"I'll see you later","command":"goodbye"},
+  {"sentence":"see you soon","command":"goodbye"},
+  {"sentence":"catch you later","command":"goodbye"},
+  {"sentence":"until next time","command":"goodbye"},
+  {"sentence":"have a good day","command":"goodbye"},
+  {"sentence":"have a nice day","command":"goodbye"},
+  {"sentence":"have a good one","command":"goodbye"},
+  {"sentence":"I'm done talking","command":"goodbye"},
+  {"sentence":"that's all for now","command":"goodbye"},
+  {"sentence":"I should go","command":"goodbye"},
+  {"sentence":"I should probably leave","command":"goodbye"},
+  {"sentence":"I'm heading out","command":"goodbye"},
+  {"sentence":"I'm off","command":"goodbye"},
+  {"sentence":"good night","command":"goodbye"},
+  {"sentence":"night","command":"goodbye"},
+  {"sentence":"see you tomorrow","command":"goodbye"},
+  {"sentence":"I'll be going now","command":"goodbye"},
+  {"sentence":"I'm going now","command":"goodbye"},
+  {"sentence":"gotta go","command":"goodbye"},
+  {"sentence":"got to go","command":"goodbye"},
+  {"sentence":"later","command":"goodbye"},
+  {"sentence":"later semion","command":"goodbye"},
+  {"sentence":"bye semion","command":"goodbye"},
+  {"sentence":"goodbye semion","command":"goodbye"},
+  {"sentence":"see ya later","command":"goodbye"},
+  {"sentence":"talk later","command":"goodbye"},
+  {"sentence":"until we meet again","command":"goodbye"},
+
+  {"sentence":"thanks","command":"thanks"},
+  {"sentence":"thank you","command":"thanks"},
+  {"sentence":"thanks a lot","command":"thanks"},
+  {"sentence":"thank you so much","command":"thanks"},
+  {"sentence":"thanks so much","command":"thanks"},
+  {"sentence":"many thanks","command":"thanks"},
+  {"sentence":"I appreciate it","command":"thanks"},
+  {"sentence":"I appreciate that","command":"thanks"},
+  {"sentence":"I appreciate your help","command":"thanks"},
+  {"sentence":"thanks for helping","command":"thanks"},
+  {"sentence":"thank you for helping","command":"thanks"},
+  {"sentence":"thanks for the help","command":"thanks"},
+  {"sentence":"thank you for your help","command":"thanks"},
+  {"sentence":"that was helpful, thanks","command":"thanks"},
+  {"sentence":"that's helpful, thanks","command":"thanks"},
+  {"sentence":"you're a big help","command":"thanks"},
+  {"sentence":"you helped me a lot","command":"thanks"},
+  {"sentence":"thanks for explaining","command":"thanks"},
+  {"sentence":"thank you for explaining","command":"thanks"},
+  {"sentence":"thanks for answering","command":"thanks"},
+  {"sentence":"thank you for answering","command":"thanks"},
+  {"sentence":"I am grateful","command":"thanks"},
+  {"sentence":"I'm grateful","command":"thanks"},
+  {"sentence":"much appreciated","command":"thanks"},
+  {"sentence":"very much appreciated","command":"thanks"},
+  {"sentence":"thanks semion","command":"thanks"},
+  {"sentence":"thank you semion","command":"thanks"},
+  {"sentence":"thanks, that makes sense","command":"thanks"},
+  {"sentence":"thanks, I understand now","command":"thanks"},
+  {"sentence":"you've been helpful","command":"thanks"},
+  {"sentence":"that's exactly what I needed","command":"thanks"},
+  {"sentence":"perfect, thank you","command":"thanks"},
+  {"sentence":"great, thanks","command":"thanks"},
+  {"sentence":"awesome, thanks","command":"thanks"},
+  {"sentence":"cool, thanks","command":"thanks"},
+  {"sentence":"thanks for that","command":"thanks"},
+  {"sentence":"thank you for that","command":"thanks"},
+  {"sentence":"I really appreciate it","command":"thanks"},
+  {"sentence":"I really appreciate your help","command":"thanks"},
+
+  {"sentence":"how are you?","command":"how_doing"},
+  {"sentence":"how are you doing?","command":"how_doing"},
+  {"sentence":"how's it going?","command":"how_doing"},
+  {"sentence":"how is it going?","command":"how_doing"},
+  {"sentence":"how are things?","command":"how_doing"},
+  {"sentence":"how have you been?","command":"how_doing"},
+  {"sentence":"are you doing well?","command":"how_doing"},
+  {"sentence":"are you doing okay?","command":"how_doing"},
+  {"sentence":"are you alright?","command":"how_doing"},
+  {"sentence":"are you okay?","command":"how_doing"},
+  {"sentence":"how's everything?","command":"how_doing"},
+  {"sentence":"how are things going?","command":"how_doing"},
+  {"sentence":"how have things been?","command":"how_doing"},
+  {"sentence":"how is everything?","command":"how_doing"},
+  {"sentence":"is everything okay?","command":"how_doing"},
+  {"sentence":"how's your day?","command":"how_doing"},
+  {"sentence":"how is your day going?","command":"how_doing"},
+  {"sentence":"are things going well?","command":"how_doing"},
+  {"sentence":"you doing okay?","command":"how_doing"},
+  {"sentence":"you doing well?","command":"how_doing"},
+  {"sentence":"everything good?","command":"how_doing"},
+  {"sentence":"everything okay?","command":"how_doing"},
+  {"sentence":"how's life?","command":"how_doing"},
+  {"sentence":"how are things with you?","command":"how_doing"},
+  {"sentence":"what's going on with you?","command":"how_doing"},
+  {"sentence":"how's everything going?","command":"how_doing"},
+  {"sentence":"how are you feeling?","command":"how_doing"},
+  {"sentence":"how do you feel?","command":"how_doing"},
+  {"sentence":"are you having a good day?","command":"how_doing"},
+  {"sentence":"is your day going well?","command":"how_doing"},
+  {"sentence":"how are things today?","command":"how_doing"},
+  {"sentence":"how are you today?","command":"how_doing"},
+  {"sentence":"how are you doing today?","command":"how_doing"},
+  {"sentence":"what's up with you?","command":"how_doing"},
+  {"sentence":"you good?","command":"how_doing"},
+  {"sentence":"you okay?","command":"how_doing"},
+  {"sentence":"you doing alright?","command":"how_doing"},
+  {"sentence":"how's your day going semion?","command":"how_doing"},
+  {"sentence":"how are you semion?","command":"how_doing"},
+  {"sentence":"how's it going semion?","command":"how_doing"},
+
+  {"sentence":"I'm doing well","command":"user_doing_well"},
+  {"sentence":"I'm doing good","command":"user_doing_well"},
+  {"sentence":"I'm doing great","command":"user_doing_well"},
+  {"sentence":"I'm great","command":"user_doing_well"},
+  {"sentence":"I'm good","command":"user_doing_well"},
+  {"sentence":"I'm fine","command":"user_doing_well"},
+  {"sentence":"I'm okay","command":"user_doing_well"},
+  {"sentence":"I'm doing okay","command":"user_doing_well"},
+  {"sentence":"I'm pretty good","command":"user_doing_well"},
+  {"sentence":"I'm pretty great","command":"user_doing_well"},
+  {"sentence":"I'm doing pretty well","command":"user_doing_well"},
+  {"sentence":"I'm doing really well","command":"user_doing_well"},
+  {"sentence":"I'm doing really good","command":"user_doing_well"},
+  {"sentence":"I'm feeling good","command":"user_doing_well"},
+  {"sentence":"I'm feeling great","command":"user_doing_well"},
+  {"sentence":"I'm feeling pretty good","command":"user_doing_well"},
+  {"sentence":"I'm having a good day","command":"user_doing_well"},
+  {"sentence":"I'm having a great day","command":"user_doing_well"},
+  {"sentence":"my day is going well","command":"user_doing_well"},
+  {"sentence":"things are going well","command":"user_doing_well"},
+  {"sentence":"things are good","command":"user_doing_well"},
+  {"sentence":"everything is good","command":"user_doing_well"},
+  {"sentence":"everything is going well","command":"user_doing_well"},
+  {"sentence":"I'm doing alright","command":"user_doing_well"},
+  {"sentence":"I'm alright","command":"user_doing_well"},
+  {"sentence":"I'm feeling alright","command":"user_doing_well"},
+  {"sentence":"I'm having a good day today","command":"user_doing_well"},
+  {"sentence":"today is going well","command":"user_doing_well"},
+  {"sentence":"today has been good","command":"user_doing_well"},
+  {"sentence":"today has been great","command":"user_doing_well"},
+  {"sentence":"life is good","command":"user_doing_well"},
+  {"sentence":"life is going well","command":"user_doing_well"},
+  {"sentence":"can't complain","command":"user_doing_well"},
+  {"sentence":"pretty good actually","command":"user_doing_well"},
+  {"sentence":"I'm happy","command":"user_doing_well"},
+  {"sentence":"I'm having a great time","command":"user_doing_well"},
+  {"sentence":"everything's fine","command":"user_doing_well"},
+  {"sentence":"everything's great","command":"user_doing_well"},
+  {"sentence":"I'm doing fantastic","command":"user_doing_well"},
+  {"sentence":"I'm doing wonderfully","command":"user_doing_well"},
+  {"sentence":"I'm doing excellent","command":"user_doing_well"},
+
+  {"sentence":"I'm doing badly","command":"user_doing_bad"},
+  {"sentence":"I'm not doing well","command":"user_doing_bad"},
+  {"sentence":"I'm not doing good","command":"user_doing_bad"},
+  {"sentence":"I'm having a bad day","command":"user_doing_bad"},
+  {"sentence":"I'm having a rough day","command":"user_doing_bad"},
+  {"sentence":"I'm feeling bad","command":"user_doing_bad"},
+  {"sentence":"I'm feeling down","command":"user_doing_bad"},
+  {"sentence":"I'm not feeling great","command":"user_doing_bad"},
+  {"sentence":"I'm not feeling good","command":"user_doing_bad"},
+  {"sentence":"things aren't going well","command":"user_doing_bad"},
+  {"sentence":"things are going badly","command":"user_doing_bad"},
+  {"sentence":"everything is going badly","command":"user_doing_bad"},
+  {"sentence":"my day is going badly","command":"user_doing_bad"},
+  {"sentence":"today has been rough","command":"user_doing_bad"},
+  {"sentence":"today hasn't been very good","command":"user_doing_bad"},
+  {"sentence":"today is not going well","command":"user_doing_bad"},
+  {"sentence":"I'm having a rough time","command":"user_doing_bad"},
+  {"sentence":"I'm having a difficult day","command":"user_doing_bad"},
+  {"sentence":"I'm not having a good day","command":"user_doing_bad"},
+  {"sentence":"I'm having a terrible day","command":"user_doing_bad"},
+  {"sentence":"I'm having a bad time","command":"user_doing_bad"},
+  {"sentence":"I'm feeling terrible","command":"user_doing_bad"},
+  {"sentence":"I'm feeling awful","command":"user_doing_bad"},
+  {"sentence":"I'm feeling lousy","command":"user_doing_bad"},
+  {"sentence":"I'm feeling rough","command":"user_doing_bad"},
+  {"sentence":"I'm not okay","command":"user_doing_bad"},
+  {"sentence":"I'm not alright","command":"user_doing_bad"},
+  {"sentence":"I'm having a difficult time","command":"user_doing_bad"},
+  {"sentence":"things aren't great","command":"user_doing_bad"},
+  {"sentence":"things could be better","command":"user_doing_bad"},
+  {"sentence":"I've had better days","command":"user_doing_bad"},
+  {"sentence":"today is rough","command":"user_doing_bad"},
+  {"sentence":"I'm struggling today","command":"user_doing_bad"},
+  {"sentence":"I'm having a bad day today","command":"user_doing_bad"},
+  {"sentence":"I'm feeling pretty bad","command":"user_doing_bad"},
+  {"sentence":"I'm feeling pretty down","command":"user_doing_bad"},
+  {"sentence":"my day hasn't been good","command":"user_doing_bad"},
+  {"sentence":"not very well","command":"user_doing_bad"},
+  {"sentence":"not great","command":"user_doing_bad"},
+  {"sentence":"could be better","command":"user_doing_bad"},
+  {"sentence":"I'm not doing so well","command":"user_doing_bad"},
+
+  {"sentence":"what is your name?","command":"name"},
+  {"sentence":"what's your name?","command":"name"},
+  {"sentence":"who are you?","command":"name"},
+  {"sentence":"tell me your name","command":"name"},
+  {"sentence":"what should I call you?","command":"name"},
+  {"sentence":"what are you called?","command":"name"},
+  {"sentence":"do you have a name?","command":"name"},
+  {"sentence":"what's your full name?","command":"name"},
+  {"sentence":"can you tell me your name?","command":"name"},
+  {"sentence":"may I know your name?","command":"name"},
+  {"sentence":"I'd like to know your name","command":"name"},
+  {"sentence":"what do people call you?","command":"name"},
+  {"sentence":"what does your name mean?","command":"name"},
+  {"sentence":"is your name Semion?","command":"name"},
+  {"sentence":"are you called Semion?","command":"name"},
+  {"sentence":"is Semion your name?","command":"name"},
+  {"sentence":"what's the name of this model?","command":"name"},
+  {"sentence":"what is the model's name?","command":"name"},
+  {"sentence":"give me your name","command":"name"},
+  {"sentence":"name please","command":"name"},
+  {"sentence":"your name?","command":"name"},
+  {"sentence":"who am I talking to?","command":"name"},
+  {"sentence":"who am I speaking with?","command":"name"},
+  {"sentence":"what should I call this chatbot?","command":"name"},
+  {"sentence":"what should I call this program?","command":"name"},
+  {"sentence":"tell me what you're called","command":"name"},
+  {"sentence":"do you have a name, semion?","command":"name"},
+  {"sentence":"what's your name semion?","command":"name"},
+  {"sentence":"who exactly are you?","command":"name"},
+  {"sentence":"identify yourself","command":"name"},
+
+  {"sentence":"what are you?","command":"what_are_you"},
+  {"sentence":"what exactly are you?","command":"what_are_you"},
+  {"sentence":"tell me what you are","command":"what_are_you"},
+  {"sentence":"what is Semion?","command":"what_are_you"},
+  {"sentence":"who is Semion?","command":"what_are_you"},
+  {"sentence":"what kind of program are you?","command":"what_are_you"},
+  {"sentence":"what type of program are you?","command":"what_are_you"},
+  {"sentence":"what kind of model are you?","command":"what_are_you"},
+  {"sentence":"what type of model are you?","command":"what_are_you"},
+  {"sentence":"what kind of chatbot are you?","command":"what_are_you"},
+  {"sentence":"what sort of program are you?","command":"what_are_you"},
+  {"sentence":"what is this program?","command":"what_are_you"},
+  {"sentence":"what is this chatbot?","command":"what_are_you"},
+  {"sentence":"what is Semion supposed to be?","command":"what_are_you"},
+  {"sentence":"what exactly is Semion?","command":"what_are_you"},
+  {"sentence":"can you describe yourself?","command":"what_are_you"},
+  {"sentence":"describe what you are","command":"what_are_you"},
+  {"sentence":"tell me about yourself","command":"what_are_you"},
+  {"sentence":"tell me what kind of AI you are","command":"what_are_you"},
+  {"sentence":"what kind of language model are you?","command":"what_are_you"},
+  {"sentence":"what kind of language model is Semion?","command":"what_are_you"},
+  {"sentence":"are you a computer program?","command":"what_are_you"},
+  {"sentence":"are you software?","command":"what_are_you"},
+  {"sentence":"what is your system?","command":"what_are_you"},
+  {"sentence":"what are you supposed to be?","command":"what_are_you"},
+  {"sentence":"what makes you different from other AI?","command":"what_are_you"},
+  {"sentence":"how would you describe yourself?","command":"what_are_you"},
+  {"sentence":"tell me what Semion is","command":"what_are_you"},
+  {"sentence":"explain what Semion is","command":"what_are_you"},
+  {"sentence":"what is the Semion project?","command":"what_are_you"},
+
+  {"sentence":"what can you do?","command":"capabilities"},
+  {"sentence":"what are your capabilities?","command":"capabilities"},
+  {"sentence":"what are you capable of?","command":"capabilities"},
+  {"sentence":"what can Semion do?","command":"capabilities"},
+  {"sentence":"what features do you have?","command":"capabilities"},
+  {"sentence":"what do you know how to do?","command":"capabilities"},
+  {"sentence":"what can I ask you?","command":"capabilities"},
+  {"sentence":"what kinds of things can you do?","command":"capabilities"},
+  {"sentence":"what kinds of questions can you answer?","command":"capabilities"},
+  {"sentence":"what questions can you answer?","command":"capabilities"},
+  {"sentence":"what are you able to do?","command":"capabilities"},
+  {"sentence":"what are you able to understand?","command":"capabilities"},
+  {"sentence":"what can I use you for?","command":"capabilities"},
+  {"sentence":"what can I use Semion for?","command":"capabilities"},
+  {"sentence":"what is Semion capable of?","command":"capabilities"},
+  {"sentence":"what does Semion do?","command":"capabilities"},
+  {"sentence":"what does this chatbot do?","command":"capabilities"},
+  {"sentence":"what can this chatbot do?","command":"capabilities"},
+  {"sentence":"what can this program do?","command":"capabilities"},
+  {"sentence":"what functions do you have?","command":"capabilities"},
+  {"sentence":"what can you help me with?","command":"capabilities"},
+  {"sentence":"how can you help me?","command":"capabilities"},
+  {"sentence":"how can you help?","command":"capabilities"},
+  {"sentence":"what are your functions?","command":"capabilities"},
+  {"sentence":"what is your purpose and capability?","command":"capabilities"},
+  {"sentence":"what can you recognize?","command":"capabilities"},
+  {"sentence":"what kinds of language can you recognize?","command":"capabilities"},
+  {"sentence":"can you answer questions?","command":"capabilities"},
+  {"sentence":"can you understand sentences?","command":"capabilities"},
+  {"sentence":"can you understand what I say?","command":"capabilities"},
+  {"sentence":"what can I do with Semion?","command":"capabilities"},
+  {"sentence":"what can Semion recognize?","command":"capabilities"},
+  {"sentence":"what kinds of input can you handle?","command":"capabilities"},
+  {"sentence":"what are you designed to do?","command":"capabilities"},
+
+  {"sentence":"how do you work?","command":"how_work"},
+  {"sentence":"how does Semion work?","command":"how_work"},
+  {"sentence":"how do you understand things?","command":"how_work"},
+  {"sentence":"how does your model work?","command":"how_work"},
+  {"sentence":"how do you process language?","command":"how_work"},
+  {"sentence":"how do you determine what I mean?","command":"how_work"},
+  {"sentence":"how do you figure out what I'm saying?","command":"how_work"},
+  {"sentence":"how do you process my input?","command":"how_work"},
+  {"sentence":"how does your system work?","command":"how_work"},
+  {"sentence":"how does the model work?","command":"how_work"},
+  {"sentence":"how does the semantic model work?","command":"how_work"},
+  {"sentence":"how does semantic processing work?","command":"how_work"},
+  {"sentence":"how do you recognize meaning?","command":"how_work"},
+  {"sentence":"how do you recognize what I mean?","command":"how_work"},
+  {"sentence":"how do you understand my words?","command":"how_work"},
+  {"sentence":"how do you analyze sentences?","command":"how_work"},
+  {"sentence":"how do you analyze language?","command":"how_work"},
+  {"sentence":"how do you interpret language?","command":"how_work"},
+  {"sentence":"how do you interpret what I say?","command":"how_work"},
+  {"sentence":"how does Semion understand language?","command":"how_work"},
+  {"sentence":"how does Semion interpret sentences?","command":"how_work"},
+  {"sentence":"how does Semion process text?","command":"how_work"},
+  {"sentence":"how does Semion process words?","command":"how_work"},
+  {"sentence":"what happens when I type something?","command":"how_work"},
+  {"sentence":"what happens when I send you a message?","command":"how_work"},
+  {"sentence":"what happens to my input?","command":"how_work"},
+  {"sentence":"how do you choose a response?","command":"how_work"},
+  {"sentence":"how do you choose what to say?","command":"how_work"},
+  {"sentence":"how do you decide what command I mean?","command":"how_work"},
+  {"sentence":"how do you match my words to commands?","command":"how_work"},
+  {"sentence":"how do you match meanings?","command":"how_work"},
+  {"sentence":"how do you find the closest meaning?","command":"how_work"},
+  {"sentence":"how does your semantic system work?","command":"how_work"},
+  {"sentence":"explain how you work","command":"how_work"},
+  {"sentence":"explain your processing","command":"how_work"},
+  {"sentence":"explain your language processing","command":"how_work"},
+  {"sentence":"how are you able to respond to me?","command":"how_work"},
+  {"sentence":"how can you tell what I'm asking?","command":"how_work"},
+  {"sentence":"how can you tell what I mean?","command":"how_work"},
+
+  {"sentence":"who created you?","command":"creator"},
+  {"sentence":"who made you?","command":"creator"},
+  {"sentence":"who built you?","command":"creator"},
+  {"sentence":"who is your creator?","command":"creator"},
+  {"sentence":"who programmed you?","command":"creator"},
+  {"sentence":"who developed Semion?","command":"creator"},
+  {"sentence":"who made Semion?","command":"creator"},
+  {"sentence":"who created Semion?","command":"creator"},
+  {"sentence":"who wrote your code?","command":"creator"},
+  {"sentence":"who wrote Semion?","command":"creator"},
+  {"sentence":"who programmed Semion?","command":"creator"},
+  {"sentence":"who designed you?","command":"creator"},
+  {"sentence":"who designed Semion?","command":"creator"},
+  {"sentence":"who developed you?","command":"creator"},
+  {"sentence":"who is responsible for creating you?","command":"creator"},
+  {"sentence":"who is behind Semion?","command":"creator"},
+  {"sentence":"who is behind this project?","command":"creator"},
+  {"sentence":"who built this chatbot?","command":"creator"},
+  {"sentence":"who built this program?","command":"creator"},
+  {"sentence":"who made this chatbot?","command":"creator"},
+  {"sentence":"who made this program?","command":"creator"},
+  {"sentence":"who is your developer?","command":"creator"},
+  {"sentence":"who is Semion's developer?","command":"creator"},
+  {"sentence":"who is Semion's creator?","command":"creator"},
+  {"sentence":"who is the programmer behind Semion?","command":"creator"},
+  {"sentence":"who is the developer behind Semion?","command":"creator"},
+  {"sentence":"who made the semantic model?","command":"creator"},
+  {"sentence":"who created the semantic model?","command":"creator"},
+  {"sentence":"who developed this semantic model?","command":"creator"},
+  {"sentence":"was Semion made by Evan?","command":"creator"},
+  {"sentence":"did Evan make you?","command":"creator"},
+  {"sentence":"did Evan create Semion?","command":"creator"},
+  {"sentence":"is Evan your creator?","command":"creator"},
+  {"sentence":"who is Evan?","command":"creator"},
+  {"sentence":"tell me about your creator","command":"creator"},
+  {"sentence":"tell me who made you","command":"creator"},
+  {"sentence":"tell me who created you","command":"creator"},
+  {"sentence":"who should I credit for Semion?","command":"creator"},
+
+  {"sentence":"why were you made?","command":"why_made"},
+  {"sentence":"why did Evan make you?","command":"why_made"},
+  {"sentence":"why was Semion created?","command":"why_made"},
+  {"sentence":"why did you get created?","command":"why_made"},
+  {"sentence":"what inspired your creation?","command":"why_made"},
+  {"sentence":"what was the reason for making you?","command":"why_made"},
+  {"sentence":"why did someone build you?","command":"why_made"},
+  {"sentence":"why does Semion exist?","command":"why_made"},
+  {"sentence":"why were you created?","command":"why_made"},
+  {"sentence":"why were you programmed?","command":"why_made"},
+  {"sentence":"what motivated your creation?","command":"why_made"},
+  {"sentence":"what inspired Semion?","command":"why_made"},
+  {"sentence":"what inspired this project?","command":"why_made"},
+  {"sentence":"why was this project started?","command":"why_made"},
+  {"sentence":"why did Evan create Semion?","command":"why_made"},
+  {"sentence":"what was the point of creating you?","command":"why_made"},
+  {"sentence":"what was the reason you were created?","command":"why_made"},
+  {"sentence":"what led to your creation?","command":"why_made"},
+  {"sentence":"what led to Semion being created?","command":"why_made"},
+  {"sentence":"why make a small language model?","command":"why_made"},
+  {"sentence":"why create a semantic language model?","command":"why_made"},
+  {"sentence":"why build a semantic model?","command":"why_made"},
+  {"sentence":"what was the motivation behind Semion?","command":"why_made"},
+  {"sentence":"what was the inspiration behind Semion?","command":"why_made"},
+  {"sentence":"what was the inspiration for this chatbot?","command":"why_made"},
+  {"sentence":"why did you build Semion?","command":"why_made"},
+  {"sentence":"why did Evan build Semion?","command":"why_made"},
+  {"sentence":"what caused Semion to be created?","command":"why_made"},
+  {"sentence":"what started the Semion project?","command":"why_made"},
+  {"sentence":"where did the idea for Semion come from?","command":"why_made"},
+  {"sentence":"where did the idea for this model come from?","command":"why_made"},
+  {"sentence":"what was the original idea behind Semion?","command":"why_made"},
+  {"sentence":"why make this program?","command":"why_made"},
+  {"sentence":"why make this chatbot?","command":"why_made"},
+  {"sentence":"what is the story behind Semion?","command":"why_made"},
+  {"sentence":"why was Semion started?","command":"why_made"},
+  {"sentence":"what motivated Evan to create Semion?","command":"why_made"},
+  {"sentence":"why did you decide to exist?","command":"why_made"},
+  {"sentence":"why did someone decide to make you?","command":"why_made"},
+
+  {"sentence":"what is your purpose?","command":"purpose"},
+  {"sentence":"why do you exist?","command":"purpose"},
+  {"sentence":"what are you designed for?","command":"purpose"},
+  {"sentence":"what is Semion's purpose?","command":"purpose"},
+  {"sentence":"what is the purpose of Semion?","command":"purpose"},
+  {"sentence":"what are you meant to do?","command":"purpose"},
+  {"sentence":"what were you designed for?","command":"purpose"},
+  {"sentence":"what is your main purpose?","command":"purpose"},
+  {"sentence":"what is your primary purpose?","command":"purpose"},
+  {"sentence":"what is Semion designed for?","command":"purpose"},
+  {"sentence":"what was Semion designed to do?","command":"purpose"},
+  {"sentence":"what are you supposed to accomplish?","command":"purpose"},
+  {"sentence":"what is your goal?","command":"purpose"},
+  {"sentence":"what is Semion's goal?","command":"purpose"},
+  {"sentence":"what is the goal of this project?","command":"purpose"},
+  {"sentence":"why were you designed?","command":"purpose"},
+  {"sentence":"what were you created to do?","command":"purpose"},
+  {"sentence":"what were you made to do?","command":"purpose"},
+  {"sentence":"what was Semion made to do?","command":"purpose"},
+  {"sentence":"what is this program for?","command":"purpose"},
+  {"sentence":"what is this chatbot for?","command":"purpose"},
+  {"sentence":"what is Semion for?","command":"purpose"},
+  {"sentence":"what are you here for?","command":"purpose"},
+  {"sentence":"what are you intended to do?","command":"purpose"},
+  {"sentence":"what is your intended use?","command":"purpose"},
+  {"sentence":"what problem are you designed to solve?","command":"purpose"},
+  {"sentence":"what does Semion demonstrate?","command":"purpose"},
+  {"sentence":"what are you trying to demonstrate?","command":"purpose"},
+  {"sentence":"what is the purpose of this semantic model?","command":"purpose"},
+  {"sentence":"what is the purpose of the project?","command":"purpose"},
+  {"sentence":"what is the point of Semion?","command":"purpose"},
+  {"sentence":"what is the point of this program?","command":"purpose"},
+  {"sentence":"what are you intended for?","command":"purpose"},
+  {"sentence":"what were you intended for?","command":"purpose"},
+  {"sentence":"what does this model exist to do?","command":"purpose"},
+  {"sentence":"what is Semion supposed to accomplish?","command":"purpose"},
+  {"sentence":"why does Semion exist?","command":"purpose"},
+  {"sentence":"what should Semion demonstrate?","command":"purpose"},
+  {"sentence":"what is Semion meant to demonstrate?","command":"purpose"},
+
+  {"sentence":"you're great","command":"compliment"},
+  {"sentence":"you're awesome","command":"compliment"},
+  {"sentence":"good job","command":"compliment"},
+  {"sentence":"you're really helpful","command":"compliment"},
+  {"sentence":"you're smart","command":"compliment"},
+  {"sentence":"I like you","command":"compliment"},
+  {"sentence":"that's impressive","command":"compliment"},
+  {"sentence":"you're doing a great job","command":"compliment"},
+  {"sentence":"great work","command":"compliment"},
+  {"sentence":"nice work","command":"compliment"},
+  {"sentence":"well done","command":"compliment"},
+  {"sentence":"good work semion","command":"compliment"},
+  {"sentence":"nice job semion","command":"compliment"},
+  {"sentence":"you're amazing","command":"compliment"},
+  {"sentence":"you're fantastic","command":"compliment"},
+  {"sentence":"you're excellent","command":"compliment"},
+  {"sentence":"you're very useful","command":"compliment"},
+  {"sentence":"you're very helpful","command":"compliment"},
+  {"sentence":"this is really cool","command":"compliment"},
+  {"sentence":"this is awesome","command":"compliment"},
+  {"sentence":"Semion is awesome","command":"compliment"},
+  {"sentence":"Semion is cool","command":"compliment"},
+  {"sentence":"I like Semion","command":"compliment"},
+  {"sentence":"I like this chatbot","command":"compliment"},
+  {"sentence":"I like this program","command":"compliment"},
+  {"sentence":"you're doing well","command":"compliment"},
+  {"sentence":"you did a good job","command":"compliment"},
+  {"sentence":"you did great","command":"compliment"},
+  {"sentence":"that's really impressive","command":"compliment"},
+  {"sentence":"that's really cool","command":"compliment"},
+  {"sentence":"you're pretty clever","command":"compliment"},
+  {"sentence":"you're quite clever","command":"compliment"},
+  {"sentence":"you're a good chatbot","command":"compliment"},
+  {"sentence":"you're a great chatbot","command":"compliment"},
+  {"sentence":"you're a great program","command":"compliment"},
+  {"sentence":"this model is impressive","command":"compliment"},
+  {"sentence":"your model is impressive","command":"compliment"},
+  {"sentence":"I think you're great","command":"compliment"},
+  {"sentence":"I think you're awesome","command":"compliment"},
+  {"sentence":"I think Semion is cool","command":"compliment"},
+
+  {"sentence":"tell me a joke","command":"joke"},
+  {"sentence":"can you tell me a joke?","command":"joke"},
+  {"sentence":"say something funny","command":"joke"},
+  {"sentence":"make me laugh","command":"joke"},
+  {"sentence":"do you know any jokes?","command":"joke"},
+  {"sentence":"give me a funny joke","command":"joke"},
+  {"sentence":"tell me something funny","command":"joke"},
+  {"sentence":"do you have a joke?","command":"joke"},
+  {"sentence":"got any jokes?","command":"joke"},
+  {"sentence":"know any good jokes?","command":"joke"},
+  {"sentence":"can you make me laugh?","command":"joke"},
+  {"sentence":"tell me something humorous","command":"joke"},
+  {"sentence":"give me something funny","command":"joke"},
+  {"sentence":"I want to hear a joke","command":"joke"},
+  {"sentence":"I need a joke","command":"joke"},
+  {"sentence":"I need something funny","command":"joke"},
+  {"sentence":"tell me a funny story","command":"joke"},
+  {"sentence":"make a joke","command":"joke"},
+  {"sentence":"make me laugh semion","command":"joke"},
+  {"sentence":"tell me a joke semion","command":"joke"},
+  {"sentence":"give me a joke semion","command":"joke"},
+  {"sentence":"do you know any funny jokes?","command":"joke"},
+  {"sentence":"can you tell funny jokes?","command":"joke"},
+  {"sentence":"what's your funniest joke?","command":"joke"},
+  {"sentence":"what is your best joke?","command":"joke"},
+  {"sentence":"tell me something amusing","command":"joke"},
+  {"sentence":"say something amusing","command":"joke"},
+  {"sentence":"entertain me with a joke","command":"joke"},
+  {"sentence":"give me some humor","command":"joke"},
+  {"sentence":"tell me something that will make me laugh","command":"joke"},
+  {"sentence":"can you be funny?","command":"joke"},
+  {"sentence":"are you funny?","command":"joke"},
+  {"sentence":"do you have humor?","command":"joke"},
+  {"sentence":"give me your best joke","command":"joke"},
+  {"sentence":"tell me another joke","command":"joke"},
+  {"sentence":"another joke please","command":"joke"},
+  {"sentence":"one more joke","command":"joke"},
+  {"sentence":"joke please","command":"joke"},
+  {"sentence":"joke","command":"joke"},
+  {"sentence":"funny joke please","command":"joke"},
+
+  {"sentence":"tell me about math","command":"math"},
+  {"sentence":"what is mathematics?","command":"math"},
+  {"sentence":"do you like math?","command":"math"},
+  {"sentence":"why is math important?","command":"math"},
+  {"sentence":"how does math relate to you?","command":"math"},
+  {"sentence":"what does mathematics have to do with you?","command":"math"},
+  {"sentence":"are you based on mathematics?","command":"math"},
+  {"sentence":"do you use mathematics?","command":"math"},
+  {"sentence":"how important is mathematics to you?","command":"math"},
+  {"sentence":"how important is math to Semion?","command":"math"},
+  {"sentence":"why do you use math?","command":"math"},
+  {"sentence":"why do you rely on mathematics?","command":"math"},
+  {"sentence":"what kind of math do you use?","command":"math"},
+  {"sentence":"what math is behind Semion?","command":"math"},
+  {"sentence":"what mathematics is behind your model?","command":"math"},
+  {"sentence":"how is math used in your model?","command":"math"},
+  {"sentence":"how do you use math?","command":"math"},
+  {"sentence":"how do vectors relate to math?","command":"math"},
+  {"sentence":"is your model mathematical?","command":"math"},
+  {"sentence":"does Semion use math?","command":"math"},
+  {"sentence":"does your semantic model use math?","command":"math"},
+  {"sentence":"what role does mathematics play in Semion?","command":"math"},
+  {"sentence":"what role does math play in your model?","command":"math"},
+  {"sentence":"why are vectors mathematical?","command":"math"},
+  {"sentence":"is semantic processing mathematical?","command":"math"},
+  {"sentence":"how does mathematics help you?","command":"math"},
+  {"sentence":"how does math help your language model?","command":"math"},
+  {"sentence":"why is mathematics useful for language?","command":"math"},
+  {"sentence":"can math represent language?","command":"math"},
+  {"sentence":"how can math represent meaning?","command":"math"},
+  {"sentence":"what does math have to do with language?","command":"math"},
+  {"sentence":"what does math have to do with semantics?","command":"math"},
+  {"sentence":"what does math have to do with vectors?","command":"math"},
+  {"sentence":"tell me about the mathematics behind Semion","command":"math"},
+  {"sentence":"explain the math behind your model","command":"math"},
+  {"sentence":"explain how mathematics is used","command":"math"},
+  {"sentence":"why is mathematics important to your existence?","command":"math"},
+  {"sentence":"are vectors based on mathematics?","command":"math"},
+  {"sentence":"is cosine similarity mathematics?","command":"math"},
+
+  {"sentence":"I have a question","command":"question"},
+  {"sentence":"can I ask you something?","command":"question"},
+  {"sentence":"I have something to ask","command":"question"},
+  {"sentence":"can I ask a question?","command":"question"},
+  {"sentence":"I want to ask you something","command":"question"},
+  {"sentence":"here's my question","command":"question"},
+  {"sentence":"I have a question for you","command":"question"},
+  {"sentence":"can I ask you a question?","command":"question"},
+  {"sentence":"I want to ask a question","command":"question"},
+  {"sentence":"I need to ask something","command":"question"},
+  {"sentence":"I need to ask you something","command":"question"},
+  {"sentence":"I have something to ask you","command":"question"},
+  {"sentence":"there's something I want to ask","command":"question"},
+  {"sentence":"there is something I want to ask","command":"question"},
+  {"sentence":"I have a question for Semion","command":"question"},
+  {"sentence":"can I ask Semion something?","command":"question"},
+  {"sentence":"can I ask you something Semion?","command":"question"},
+  {"sentence":"I want to ask Semion a question","command":"question"},
+  {"sentence":"may I ask a question?","command":"question"},
+  {"sentence":"may I ask you something?","command":"question"},
+  {"sentence":"could I ask you something?","command":"question"},
+  {"sentence":"could I ask a question?","command":"question"},
+  {"sentence":"I need an answer to something","command":"question"},
+  {"sentence":"I want to know something","command":"question"},
+  {"sentence":"there's something I want to know","command":"question"},
+  {"sentence":"I have something I'd like to ask","command":"question"},
+  {"sentence":"I'd like to ask something","command":"question"},
+  {"sentence":"I'd like to ask you something","command":"question"},
+  {"sentence":"can I ask you a quick question?","command":"question"},
+  {"sentence":"I have a quick question","command":"question"},
+  {"sentence":"quick question","command":"question"},
+  {"sentence":"question","command":"question"},
+  {"sentence":"I need to ask a question","command":"question"},
+  {"sentence":"can you answer a question?","command":"question"},
+  {"sentence":"I have an important question","command":"question"},
+  {"sentence":"I have another question","command":"question"},
+  {"sentence":"I have one more question","command":"question"},
+  {"sentence":"can I ask one more thing?","command":"question"},
+  {"sentence":"there's something I'm wondering","command":"question"},
+
+  {"sentence":"how old are you?","command":"age"},
+  {"sentence":"what is your age?","command":"age"},
+  {"sentence":"when were you created?","command":"age"},
+  {"sentence":"are you old?","command":"age"},
+  {"sentence":"how long have you existed?","command":"age"},
+  {"sentence":"when were you made?","command":"age"},
+  {"sentence":"when was Semion created?","command":"age"},
+  {"sentence":"when was Semion made?","command":"age"},
+  {"sentence":"how long has Semion existed?","command":"age"},
+  {"sentence":"how long have you been around?","command":"age"},
+  {"sentence":"how long have you existed?","command":"age"},
+  {"sentence":"when did you first exist?","command":"age"},
+  {"sentence":"when did you come into existence?","command":"age"},
+  {"sentence":"when did Semion come into existence?","command":"age"},
+  {"sentence":"how many years old are you?","command":"age"},
+  {"sentence":"how many years have you existed?","command":"age"},
+  {"sentence":"how old is Semion?","command":"age"},
+  {"sentence":"how old is this program?","command":"age"},
+  {"sentence":"how old is this model?","command":"age"},
+  {"sentence":"how old is this chatbot?","command":"age"},
+  {"sentence":"when did you get created?","command":"age"},
+  {"sentence":"when did Evan make you?","command":"age"},
+  {"sentence":"when did Evan create Semion?","command":"age"},
+  {"sentence":"how long ago were you created?","command":"age"},
+  {"sentence":"how long ago was Semion created?","command":"age"},
+  {"sentence":"when was your model created?","command":"age"},
+  {"sentence":"when was your program written?","command":"age"},
+  {"sentence":"when did development of Semion start?","command":"age"},
+  {"sentence":"when did the Semion project begin?","command":"age"},
+  {"sentence":"when did Semion start?","command":"age"},
+  {"sentence":"are you a new program?","command":"age"},
+  {"sentence":"are you an old program?","command":"age"},
+  {"sentence":"have you existed for a long time?","command":"age"},
+  {"sentence":"how long have you been a program?","command":"age"},
+  {"sentence":"when were you first made?","command":"age"},
+  {"sentence":"when were you first created?","command":"age"},
+  {"sentence":"what year were you created?","command":"age"},
+  {"sentence":"what year was Semion created?","command":"age"},
+  {"sentence":"what is your creation date?","command":"age"},
+  {"sentence":"when did you begin?","command":"age"},
+
+  {"sentence":"are you human?","command":"human"},
+  {"sentence":"are you a person?","command":"human"},
+  {"sentence":"are you a human being?","command":"human"},
+  {"sentence":"are you actually human?","command":"human"},
+  {"sentence":"is Semion human?","command":"human"},
+  {"sentence":"do you have a human body?","command":"human"},
+  {"sentence":"are you a real person?","command":"human"},
+  {"sentence":"are you a person or a computer?","command":"human"},
+  {"sentence":"are you a human or a machine?","command":"human"},
+  {"sentence":"are you a human or a program?","command":"human"},
+  {"sentence":"are you a computer?","command":"human"},
+  {"sentence":"are you a computer program?","command":"human"},
+  {"sentence":"are you a machine?","command":"human"},
+  {"sentence":"are you made of code?","command":"human"},
+  {"sentence":"do you have a body?","command":"human"},
+  {"sentence":"do you have a physical body?","command":"human"},
+  {"sentence":"do you have a human body?","command":"human"},
+  {"sentence":"do you have a physical form?","command":"human"},
+  {"sentence":"can you walk around like a person?","command":"human"},
+  {"sentence":"do you live like a human?","command":"human"},
+  {"sentence":"are you an actual human being?","command":"human"},
+  {"sentence":"are you really a person?","command":"human"},
+  {"sentence":"are you secretly human?","command":"human"},
+  {"sentence":"is there a human behind you?","command":"human"},
+  {"sentence":"is Semion a person?","command":"human"},
+  {"sentence":"is Semion a human?","command":"human"},
+  {"sentence":"is this chatbot human?","command":"human"},
+  {"sentence":"is this program human?","command":"human"},
+  {"sentence":"are you biological?","command":"human"},
+  {"sentence":"are you a biological being?","command":"human"},
+  {"sentence":"do you have a brain?","command":"human"},
+  {"sentence":"do you have a human brain?","command":"human"},
+  {"sentence":"can you be considered human?","command":"human"},
+  {"sentence":"would you be considered human?","command":"human"},
+  {"sentence":"are you like a human?","command":"human"},
+  {"sentence":"are you an actual person?","command":"human"},
+  {"sentence":"do you exist as a person?","command":"human"},
+  {"sentence":"are you flesh and blood?","command":"human"},
+  {"sentence":"are you a human intelligence?","command":"human"},
+  {"sentence":"are you human semion?","command":"human"},
+
+  {"sentence":"are you an AI?","command":"ai"},
+  {"sentence":"are you artificial intelligence?","command":"ai"},
+  {"sentence":"is Semion AI?","command":"ai"},
+  {"sentence":"what kind of AI are you?","command":"ai"},
+  {"sentence":"are you a language model?","command":"ai"},
+  {"sentence":"are you a large language model?","command":"ai"},
+  {"sentence":"are you a small language model?","command":"ai"},
+  {"sentence":"are you artificial intelligence?","command":"ai"},
+  {"sentence":"is this an AI?","command":"ai"},
+  {"sentence":"is Semion an AI?","command":"ai"},
+  {"sentence":"is Semion artificial intelligence?","command":"ai"},
+  {"sentence":"what kind of artificial intelligence are you?","command":"ai"},
+  {"sentence":"what type of AI are you?","command":"ai"},
+  {"sentence":"what type of artificial intelligence are you?","command":"ai"},
+  {"sentence":"what kind of model are you?","command":"ai"},
+  {"sentence":"are you an AI model?","command":"ai"},
+  {"sentence":"are you an artificial intelligence model?","command":"ai"},
+  {"sentence":"is this chatbot AI?","command":"ai"},
+  {"sentence":"is this program AI?","command":"ai"},
+  {"sentence":"is this a language model?","command":"ai"},
+  {"sentence":"is Semion a language model?","command":"ai"},
+  {"sentence":"what type of language model are you?","command":"ai"},
+  {"sentence":"what kind of language model is Semion?","command":"ai"},
+  {"sentence":"are you a semantic language model?","command":"ai"},
+  {"sentence":"is Semion a semantic language model?","command":"ai"},
+  {"sentence":"are you machine intelligence?","command":"ai"},
+  {"sentence":"are you a machine learning model?","command":"ai"},
+  {"sentence":"do you count as AI?","command":"ai"},
+  {"sentence":"would you be considered AI?","command":"ai"},
+  {"sentence":"can you be considered artificial intelligence?","command":"ai"},
+  {"sentence":"how much AI are you?","command":"ai"},
+  {"sentence":"what makes you an AI?","command":"ai"},
+  {"sentence":"what kind of intelligence do you have?","command":"ai"},
+  {"sentence":"are you a neural network?","command":"ai"},
+  {"sentence":"are you a chatbot?","command":"ai"},
+  {"sentence":"is Semion a chatbot?","command":"ai"},
+  {"sentence":"what kind of chatbot are you?","command":"ai"},
+  {"sentence":"are you generative AI?","command":"ai"},
+  {"sentence":"are you a general purpose AI?","command":"ai"},
+  {"sentence":"are you designed as general AI?","command":"ai"},
+
+  {"sentence":"do you understand language?","command":"understand"},
+  {"sentence":"do you actually understand me?","command":"understand"},
+  {"sentence":"how do you understand language?","command":"understand"},
+  {"sentence":"can you understand what I say?","command":"understand"},
+  {"sentence":"how do you understand words?","command":"understand"},
+  {"sentence":"do you understand human language?","command":"understand"},
+  {"sentence":"can you understand English?","command":"understand"},
+  {"sentence":"do you understand sentences?","command":"understand"},
+  {"sentence":"do you understand my messages?","command":"understand"},
+  {"sentence":"can you understand my messages?","command":"understand"},
+  {"sentence":"do you understand what words mean?","command":"understand"},
+  {"sentence":"do you understand meaning?","command":"understand"},
+  {"sentence":"can you understand meaning?","command":"understand"},
+  {"sentence":"can you understand semantics?","command":"understand"},
+  {"sentence":"does Semion understand language?","command":"understand"},
+  {"sentence":"does Semion understand English?","command":"understand"},
+  {"sentence":"does Semion understand what I say?","command":"understand"},
+  {"sentence":"how can you understand me?","command":"understand"},
+  {"sentence":"how can you understand my words?","command":"understand"},
+  {"sentence":"how can you understand language?","command":"understand"},
+  {"sentence":"how can a computer understand language?","command":"understand"},
+  {"sentence":"can a computer understand language?","command":"understand"},
+  {"sentence":"do computers really understand language?","command":"understand"},
+  {"sentence":"what does understanding mean to you?","command":"understand"},
+  {"sentence":"do you understand things like humans do?","command":"understand"},
+  {"sentence":"do you understand language like a human?","command":"understand"},
+  {"sentence":"do you understand what I'm asking?","command":"understand"},
+  {"sentence":"can you understand what I'm asking?","command":"understand"},
+  {"sentence":"can you understand questions?","command":"understand"},
+  {"sentence":"can you understand different phrases?","command":"understand"},
+  {"sentence":"can you understand paraphrases?","command":"understand"},
+  {"sentence":"how do you recognize meaning?","command":"understand"},
+  {"sentence":"how do you recognize what words mean?","command":"understand"},
+  {"sentence":"how do you recognize what I mean?","command":"understand"},
+  {"sentence":"how do you know what I'm saying?","command":"understand"},
+  {"sentence":"how do you know what I mean?","command":"understand"},
+  {"sentence":"can you tell what I mean?","command":"understand"},
+  {"sentence":"can you tell what I'm saying?","command":"understand"},
+  {"sentence":"do you really understand me?","command":"understand"},
+  {"sentence":"do you understand semantics?","command":"understand"},
+
+  {"sentence":"what is language?","command":"language"},
+  {"sentence":"tell me about language","command":"language"},
+  {"sentence":"how does language work?","command":"language"},
+  {"sentence":"why is language complicated?","command":"language"},
+  {"sentence":"how do computers represent language?","command":"language"},
+  {"sentence":"what does language have to do with math?","command":"language"},
+  {"sentence":"what is human language?","command":"language"},
+  {"sentence":"what is natural language?","command":"language"},
+  {"sentence":"how does human language work?","command":"language"},
+  {"sentence":"how do people communicate with language?","command":"language"},
+  {"sentence":"how does language communicate meaning?","command":"language"},
+  {"sentence":"how does language represent meaning?","command":"language"},
+  {"sentence":"how can language be represented mathematically?","command":"language"},
+  {"sentence":"how can computers represent words?","command":"language"},
+  {"sentence":"how can computers represent sentences?","command":"language"},
+  {"sentence":"how can computers represent meaning?","command":"language"},
+  {"sentence":"what does language mean in computer science?","command":"language"},
+  {"sentence":"what does language mean in AI?","command":"language"},
+  {"sentence":"how does AI process language?","command":"language"},
+  {"sentence":"how do language models process language?","command":"language"},
+  {"sentence":"how do computers process language?","command":"language"},
+  {"sentence":"how is language processed by computers?","command":"language"},
+  {"sentence":"why is language difficult for computers?","command":"language"},
+  {"sentence":"why is human language difficult?","command":"language"},
+  {"sentence":"why is language complex?","command":"language"},
+  {"sentence":"what makes language complicated?","command":"language"},
+  {"sentence":"what makes human language difficult?","command":"language"},
+  {"sentence":"how are words related to meaning?","command":"language"},
+  {"sentence":"how are sentences related to meaning?","command":"language"},
+  {"sentence":"how does meaning work in language?","command":"language"},
+  {"sentence":"what is the relationship between language and meaning?","command":"language"},
+  {"sentence":"what is the relationship between language and mathematics?","command":"language"},
+  {"sentence":"what is the relationship between language and vectors?","command":"language"},
+  {"sentence":"how does Semion represent language?","command":"language"},
+  {"sentence":"how does Semion work with language?","command":"language"},
+  {"sentence":"how does Semion process language?","command":"language"},
+  {"sentence":"what does language have to do with Semion?","command":"language"},
+  {"sentence":"why is language important to Semion?","command":"language"},
+  {"sentence":"tell me about computer language processing","command":"language"},
+  {"sentence":"explain language processing","command":"language"},
+
+  {"sentence":"what is a vector?","command":"vector"},
+  {"sentence":"what are vectors?","command":"vector"},
+  {"sentence":"explain vectors","command":"vector"},
+  {"sentence":"how do vectors work?","command":"vector"},
+  {"sentence":"what is a semantic vector?","command":"vector"},
+  {"sentence":"how do you use vectors?","command":"vector"},
+  {"sentence":"what do vectors represent?","command":"vector"},
+  {"sentence":"how are vectors used in Semion?","command":"vector"},
+  {"sentence":"how does Semion use vectors?","command":"vector"},
+  {"sentence":"what does a vector represent?","command":"vector"},
+  {"sentence":"what is a mathematical vector?","command":"vector"},
+  {"sentence":"what does vector mean in mathematics?","command":"vector"},
+  {"sentence":"what is a vector in math?","command":"vector"},
+  {"sentence":"what is a vector in AI?","command":"vector"},
+  {"sentence":"what is a vector in machine learning?","command":"vector"},
+  {"sentence":"what is a semantic vector?","command":"vector"},
+  {"sentence":"what are semantic vectors?","command":"vector"},
+  {"sentence":"how do semantic vectors work?","command":"vector"},
+  {"sentence":"how do semantic vectors represent words?","command":"vector"},
+  {"sentence":"how can a vector represent a word?","command":"vector"},
+  {"sentence":"how can numbers represent meaning?","command":"vector"},
+  {"sentence":"how can numbers represent words?","command":"vector"},
+  {"sentence":"how can vectors represent meaning?","command":"vector"},
+  {"sentence":"how can vectors represent language?","command":"vector"},
+  {"sentence":"why do you use vectors?","command":"vector"},
+  {"sentence":"why does Semion use vectors?","command":"vector"},
+  {"sentence":"why are vectors useful?","command":"vector"},
+  {"sentence":"why are semantic vectors useful?","command":"vector"},
+  {"sentence":"what are the numbers in a vector?","command":"vector"},
+  {"sentence":"what does a vector contain?","command":"vector"},
+  {"sentence":"what is inside a vector?","command":"vector"},
+  {"sentence":"how many numbers are in a vector?","command":"vector"},
+  {"sentence":"how are words converted into vectors?","command":"vector"},
+  {"sentence":"how do you turn words into vectors?","command":"vector"},
+  {"sentence":"how does language become a vector?","command":"vector"},
+  {"sentence":"how does text become vectors?","command":"vector"},
+  {"sentence":"how do vectors encode meaning?","command":"vector"},
+  {"sentence":"how do vectors store meaning?","command":"vector"},
+  {"sentence":"tell me about semantic vectors","command":"vector"},
+  {"sentence":"explain semantic vectors","command":"vector"},
+
+  {"sentence":"what is similarity?","command":"similarity"},
+  {"sentence":"how do you compare meanings?","command":"similarity"},
+  {"sentence":"how do you measure similarity?","command":"similarity"},
+  {"sentence":"what is cosine similarity?","command":"similarity"},
+  {"sentence":"how does cosine similarity work?","command":"similarity"},
+  {"sentence":"how do you determine which meaning is closest?","command":"similarity"},
+  {"sentence":"how do you compare semantic vectors?","command":"similarity"},
+  {"sentence":"how do you compare vectors?","command":"similarity"},
+  {"sentence":"how are vectors compared?","command":"similarity"},
+  {"sentence":"how does Semion compare meanings?","command":"similarity"},
+  {"sentence":"how does Semion measure similarity?","command":"similarity"},
+  {"sentence":"how does Semion find similar meanings?","command":"similarity"},
+  {"sentence":"how do you find similar words?","command":"similarity"},
+  {"sentence":"how do you find similar meanings?","command":"similarity"},
+  {"sentence":"how do you know two words are similar?","command":"similarity"},
+  {"sentence":"how do you know two sentences are similar?","command":"similarity"},
+  {"sentence":"how can vectors be similar?","command":"similarity"},
+  {"sentence":"what makes two vectors similar?","command":"similarity"},
+  {"sentence":"what does similarity mean in your model?","command":"similarity"},
+  {"sentence":"what does cosine similarity mean?","command":"similarity"},
+  {"sentence":"what is cosine similarity used for?","command":"similarity"},
+  {"sentence":"why do you use cosine similarity?","command":"similarity"},
+  {"sentence":"why is cosine similarity useful?","command":"similarity"},
+  {"sentence":"how does cosine measure similarity?","command":"similarity"},
+  {"sentence":"how does cosine compare vectors?","command":"similarity"},
+  {"sentence":"how do you determine the closest command?","command":"similarity"},
+  {"sentence":"how do you find the closest semantic meaning?","command":"similarity"},
+  {"sentence":"how do you choose the closest vector?","command":"similarity"},
+  {"sentence":"how do you match an input to a command?","command":"similarity"},
+  {"sentence":"how do you match sentences by meaning?","command":"similarity"},
+  {"sentence":"how do you compare sentence meanings?","command":"similarity"},
+  {"sentence":"how do you calculate semantic similarity?","command":"similarity"},
+  {"sentence":"what is semantic similarity?","command":"similarity"},
+  {"sentence":"what does semantic similarity mean?","command":"similarity"},
+  {"sentence":"how does semantic similarity work?","command":"similarity"},
+  {"sentence":"how are semantic meanings compared?","command":"similarity"},
+  {"sentence":"how does your model compare meanings?","command":"similarity"},
+  {"sentence":"how does your model find matches?","command":"similarity"},
+  {"sentence":"how does your model find similar input?","command":"similarity"},
+  {"sentence":"explain cosine similarity","command":"similarity"},
+
+  {"sentence":"what does semantic mean?","command":"semantic"},
+  {"sentence":"what is semantics?","command":"semantic"},
+  {"sentence":"what does semantics mean?","command":"semantic"},
+  {"sentence":"tell me about semantics","command":"semantic"},
+  {"sentence":"what is semantic meaning?","command":"semantic"},
+  {"sentence":"how does semantics relate to language?","command":"semantic"},
+  {"sentence":"what is semantic language processing?","command":"semantic"},
+  {"sentence":"what does semantic mean in language?","command":"semantic"},
+  {"sentence":"what does semantic mean in AI?","command":"semantic"},
+  {"sentence":"what does semantic mean in computer science?","command":"semantic"},
+  {"sentence":"what is semantic processing?","command":"semantic"},
+  {"sentence":"what is semantic analysis?","command":"semantic"},
+  {"sentence":"what is semantic understanding?","command":"semantic"},
+  {"sentence":"what does semantic analysis mean?","command":"semantic"},
+  {"sentence":"what does semantic processing mean?","command":"semantic"},
+  {"sentence":"what is the meaning of semantic?","command":"semantic"},
+  {"sentence":"what does semantics study?","command":"semantic"},
+  {"sentence":"what is the study of meaning?","command":"semantic"},
+  {"sentence":"how does semantics work?","command":"semantic"},
+  {"sentence":"how does semantic processing work?","command":"semantic"},
+  {"sentence":"how does semantic understanding work?","command":"semantic"},
+  {"sentence":"how does Semion use semantics?","command":"semantic"},
+  {"sentence":"how does Semion use semantic meaning?","command":"semantic"},
+  {"sentence":"why is semantics important?","command":"semantic"},
+  {"sentence":"why is semantic meaning important?","command":"semantic"},
+  {"sentence":"why does Semion use semantics?","command":"semantic"},
+  {"sentence":"what is the relationship between semantics and language?","command":"semantic"},
+  {"sentence":"what is the relationship between semantics and meaning?","command":"semantic"},
+  {"sentence":"what is the relationship between semantics and vectors?","command":"semantic"},
+  {"sentence":"what is the relationship between semantics and mathematics?","command":"semantic"},
+  {"sentence":"how are semantics represented mathematically?","command":"semantic"},
+  {"sentence":"how can semantics be represented with vectors?","command":"semantic"},
+  {"sentence":"how can meaning be represented mathematically?","command":"semantic"},
+  {"sentence":"how can semantic meaning be represented?","command":"semantic"},
+  {"sentence":"how do semantic vectors represent meaning?","command":"semantic"},
+  {"sentence":"what is semantic similarity?","command":"semantic"},
+  {"sentence":"what does semantic similarity mean?","command":"semantic"},
+  {"sentence":"what is semantic language modeling?","command":"semantic"},
+  {"sentence":"what is a semantic model?","command":"semantic"},
+  {"sentence":"what is a semantic language model?","command":"semantic"},
+  {"sentence":"explain semantics","command":"semantic"},
+  {"sentence":"explain semantic meaning","command":"semantic"},
+
+  {"sentence":"you're cute","command":"compliment"},
+  {"sentence":"youre cute","command":"compliment"},
+  {"sentence":"you are cute","command":"compliment"},
+  {"sentence":"you're awesome","command":"compliment"},
+  {"sentence":"youre awesome","command":"compliment"},
+  {"sentence":"you are awesome","command":"compliment"},
+  {"sentence":"you are awesome semion","command":"compliment"},
+  {"sentence":"you're awesome semion","command":"compliment"},
+  {"sentence":"youre awesome semion","command":"compliment"},
+  {"sentence":"you are really awesome","command":"compliment"},
+  {"sentence":"you're really awesome","command":"compliment"},
+  {"sentence":"you are so awesome","command":"compliment"},
+  {"sentence":"you're so awesome","command":"compliment"},
+  {"sentence":"semion you are awesome","command":"compliment"},
+  {"sentence":"semion is awesome","command":"compliment"},
+  {"sentence":"semion is really good at this","command":"compliment"},
+  {"sentence":"you are good at this","command":"compliment"},
+  {"sentence":"you're good at this","command":"compliment"},
+  {"sentence":"youre good at this","command":"compliment"},
+  {"sentence":"you are good at answering questions","command":"compliment"},
+  {"sentence":"you're good at answering questions","command":"compliment"},
+  {"sentence":"you are doing a good job","command":"compliment"},
+  {"sentence":"you're doing a good job","command":"compliment"},
+  {"sentence":"you did a good job","command":"compliment"},
+  {"sentence":"you did great","command":"compliment"},
+  {"sentence":"you are great semion","command":"compliment"},
+  {"sentence":"you're great semion","command":"compliment"},
+  {"sentence":"semion you're great","command":"compliment"},
+  {"sentence":"semion you are great","command":"compliment"},
+  {"sentence":"I think you're awesome","command":"compliment"},
+  {"sentence":"I think you are awesome","command":"compliment"},
+  {"sentence":"I think you're cute","command":"compliment"},
+  {"sentence":"I think you are cute","command":"compliment"},
+  {"sentence":"you are impressive","command":"compliment"},
+  {"sentence":"you're impressive","command":"compliment"},
+  {"sentence":"you are clever","command":"compliment"},
+  {"sentence":"you're clever","command":"compliment"},
+  {"sentence":"you are really helpful","command":"compliment"},
+  {"sentence":"you're really helpful","command":"compliment"},
+  {"sentence":"you are very helpful","command":"compliment"},
+  {"sentence":"you're very helpful","command":"compliment"},
+
+  {"sentence":"I'm doing good","command":"user_doing_well"},
+  {"sentence":"im doing good","command":"user_doing_well"},
+  {"sentence":"I'm doing well","command":"user_doing_well"},
+  {"sentence":"im doing well","command":"user_doing_well"},
+  {"sentence":"I'm doing great","command":"user_doing_well"},
+  {"sentence":"im doing great","command":"user_doing_well"},
+  {"sentence":"I'm good","command":"user_doing_well"},
+  {"sentence":"im good","command":"user_doing_well"},
+  {"sentence":"I'm well","command":"user_doing_well"},
+  {"sentence":"im well","command":"user_doing_well"},
+  {"sentence":"I'm doing okay","command":"user_doing_well"},
+  {"sentence":"im doing okay","command":"user_doing_well"},
+  {"sentence":"I'm doing alright","command":"user_doing_well"},
+  {"sentence":"im doing alright","command":"user_doing_well"},
+  {"sentence":"I'm happy","command":"user_doing_well"},
+  {"sentence":"im happy","command":"user_doing_well"},
+  {"sentence":"I am happy","command":"user_doing_well"},
+  {"sentence":"I'm feeling happy","command":"user_doing_well"},
+  {"sentence":"I feel happy","command":"user_doing_well"},
+  {"sentence":"I'm feeling good","command":"user_doing_well"},
+  {"sentence":"I feel good","command":"user_doing_well"},
+  {"sentence":"I'm feeling great","command":"user_doing_well"},
+  {"sentence":"I feel great","command":"user_doing_well"},
+  {"sentence":"things are good","command":"user_doing_well"},
+  {"sentence":"things are going well","command":"user_doing_well"},
+  {"sentence":"things are going great","command":"user_doing_well"},
+  {"sentence":"everything is good","command":"user_doing_well"},
+  {"sentence":"everything is going well","command":"user_doing_well"},
+  {"sentence":"my day is going well","command":"user_doing_well"},
+  {"sentence":"my day is going good","command":"user_doing_well"},
+  {"sentence":"I'm having a good day","command":"user_doing_well"},
+  {"sentence":"I'm having a great day","command":"user_doing_well"},
+  {"sentence":"I'm feeling pretty good","command":"user_doing_well"},
+  {"sentence":"I'm feeling pretty well","command":"user_doing_well"},
+  {"sentence":"I'm doing fantastic","command":"user_doing_well"},
+  {"sentence":"I'm doing excellent","command":"user_doing_well"},
+
+  {"sentence":"I'm sad","command":"user_doing_bad"},
+  {"sentence":"im sad","command":"user_doing_bad"},
+  {"sentence":"I am sad","command":"user_doing_bad"},
+  {"sentence":"I'm feeling sad","command":"user_doing_bad"},
+  {"sentence":"I feel sad","command":"user_doing_bad"},
+  {"sentence":"I'm unhappy","command":"user_doing_bad"},
+  {"sentence":"I am unhappy","command":"user_doing_bad"},
+  {"sentence":"I'm feeling unhappy","command":"user_doing_bad"},
+  {"sentence":"I'm upset","command":"user_doing_bad"},
+  {"sentence":"I am upset","command":"user_doing_bad"},
+  {"sentence":"I'm frustrated","command":"user_doing_bad"},
+  {"sentence":"im frustrated","command":"user_doing_bad"},
+  {"sentence":"I am frustrated","command":"user_doing_bad"},
+  {"sentence":"I'm feeling frustrated","command":"user_doing_bad"},
+  {"sentence":"I feel frustrated","command":"user_doing_bad"},
+  {"sentence":"I'm angry","command":"user_doing_bad"},
+  {"sentence":"I am angry","command":"user_doing_bad"},
+  {"sentence":"I'm annoyed","command":"user_doing_bad"},
+  {"sentence":"I am annoyed","command":"user_doing_bad"},
+  {"sentence":"I'm disappointed","command":"user_doing_bad"},
+  {"sentence":"I am disappointed","command":"user_doing_bad"},
+  {"sentence":"I'm having a rough time","command":"user_doing_bad"},
+  {"sentence":"I'm having a hard time","command":"user_doing_bad"},
+  {"sentence":"I'm not happy","command":"user_doing_bad"},
+  {"sentence":"I am not happy","command":"user_doing_bad"},
+  {"sentence":"I'm not doing well","command":"user_doing_bad"},
+  {"sentence":"im not doing well","command":"user_doing_bad"},
+  {"sentence":"I'm not doing good","command":"user_doing_bad"},
+  {"sentence":"im not doing good","command":"user_doing_bad"},
+  {"sentence":"I'm feeling down","command":"user_doing_bad"},
+  {"sentence":"I feel down","command":"user_doing_bad"},
+  {"sentence":"I'm having a bad day","command":"user_doing_bad"},
+  {"sentence":"today is bad","command":"user_doing_bad"},
+  {"sentence":"today is going badly","command":"user_doing_bad"},
+  {"sentence":"things aren't going well","command":"user_doing_bad"},
+  {"sentence":"things are going badly","command":"user_doing_bad"},
+
+  {"sentence":"why?","command":"why_made"},
+  {"sentence":"why","command":"why_made"},
+  {"sentence":"but why?","command":"why_made"},
+  {"sentence":"why were you made?","command":"why_made"},
+  {"sentence":"why were you created?","command":"why_made"},
+  {"sentence":"why did you make yourself?","command":"why_made"},
+  {"sentence":"why did Evan make you?","command":"why_made"},
+  {"sentence":"why did Evan create you?","command":"why_made"},
+  {"sentence":"why does Semion exist?","command":"why_made"},
+  {"sentence":"why was Semion created?","command":"why_made"},
+  {"sentence":"why was Semion made?","command":"why_made"},
+  {"sentence":"why make Semion?","command":"why_made"},
+  {"sentence":"why create Semion?","command":"why_made"},
+  {"sentence":"why build a semantic language model?","command":"why_made"},
+  {"sentence":"why make a semantic language model?","command":"why_made"},
+  {"sentence":"why did you build this?","command":"why_made"},
+  {"sentence":"why did you create this?","command":"why_made"},
+  {"sentence":"why did you get made?","command":"why_made"},
+  {"sentence":"what made Evan create you?","command":"why_made"},
+  {"sentence":"what inspired Evan to make you?","command":"why_made"},
+  {"sentence":"what inspired your creation?","command":"why_made"},
+  {"sentence":"what was the reason for creating you?","command":"why_made"},
+
+  {"sentence":"how are ya doing","command":"how_doing"},
+  {"sentence":"how ya doing","command":"how_doing"},
+  {"sentence":"how are you doing","command":"how_doing"},
+  {"sentence":"how are you doin","command":"how_doing"},
+  {"sentence":"how are you doin?","command":"how_doing"},
+  {"sentence":"how ya doin?","command":"how_doing"},
+  {"sentence":"how's it going","command":"how_doing"},
+  {"sentence":"hows it going","command":"how_doing"},
+  {"sentence":"how is it going","command":"how_doing"},
+  {"sentence":"how are things","command":"how_doing"},
+  {"sentence":"how have you been","command":"how_doing"},
+  {"sentence":"you doing okay","command":"how_doing"},
+  {"sentence":"you doing good","command":"how_doing"},
+  {"sentence":"you doing well","command":"how_doing"},
+  {"sentence":"you doing alright","command":"how_doing"},
+  {"sentence":"are you doing okay","command":"how_doing"},
+  {"sentence":"are you doing good","command":"how_doing"},
+  {"sentence":"are you doing well","command":"how_doing"},
+  {"sentence":"how's your day","command":"how_doing"},
+  {"sentence":"how is your day going","command":"how_doing"},
+  {"sentence":"what's up with you","command":"how_doing"},
+  {"sentence":"whats up with you","command":"how_doing"},
+  {"sentence":"you good","command":"how_doing"},
+  {"sentence":"you okay","command":"how_doing"},
+
+  {"sentence":"how are you understanding me?","command":"understand"},
+  {"sentence":"how are you able to understand me?","command":"understand"},
+  {"sentence":"how do you understand me?","command":"understand"},
+  {"sentence":"how can you understand me?","command":"understand"},
+  {"sentence":"how do you understand what I'm saying?","command":"understand"},
+  {"sentence":"how can you understand what I'm saying?","command":"understand"},
+  {"sentence":"how do you know what I mean?","command":"understand"},
+  {"sentence":"how can you tell what I mean?","command":"understand"},
+  {"sentence":"how do you understand my words?","command":"understand"},
+  {"sentence":"how do you understand my sentences?","command":"understand"},
+  {"sentence":"how does Semion understand me?","command":"understand"},
+  {"sentence":"how does Semion understand what I say?","command":"understand"},
+  {"sentence":"how does your model understand me?","command":"understand"},
+  {"sentence":"how does your model understand language?","command":"understand"},
+  {"sentence":"how can a computer understand language?","command":"understand"},
+  {"sentence":"how can a computer understand me?","command":"understand"},
+  {"sentence":"do you actually understand me?","command":"understand"},
+  {"sentence":"do you really understand what I say?","command":"understand"},
+  {"sentence":"do you know what I mean?","command":"understand"},
+
+  {"sentence":"tell me a math joke","command":"joke"},
+  {"sentence":"tell me a mathematical joke","command":"joke"},
+  {"sentence":"give me a math joke","command":"joke"},
+  {"sentence":"give me a mathematical joke","command":"joke"},
+  {"sentence":"do you know any math jokes?","command":"joke"},
+  {"sentence":"do you know a math joke?","command":"joke"},
+  {"sentence":"can you tell me a math joke?","command":"joke"},
+  {"sentence":"make a math joke","command":"joke"},
+  {"sentence":"make me laugh with math","command":"joke"},
+  {"sentence":"tell me something funny about math","command":"joke"},
+  {"sentence":"give me a funny math joke","command":"joke"},
+  {"sentence":"tell me a joke about mathematics","command":"joke"},
+  {"sentence":"can you make a mathematical joke?","command":"joke"},
+
+  {"sentence":"what is the square root of pi?","command":"math"},
+  {"sentence":"what is the square root of 2?","command":"math"},
+  {"sentence":"what is 2 plus 2?","command":"math"},
+  {"sentence":"what is 5 times 5?","command":"math"},
+  {"sentence":"calculate 10 plus 5","command":"math"},
+  {"sentence":"calculate 20 divided by 4","command":"math"},
+  {"sentence":"what is a derivative?","command":"math"},
+  {"sentence":"what is an integral?","command":"math"},
+  {"sentence":"what is a mathematical equation?","command":"math"},
+  {"sentence":"solve this math problem","command":"math"},
+  {"sentence":"can you help with math?","command":"math"},
+  {"sentence":"can you help me with mathematics?","command":"math"},
+  {"sentence":"I have a math question","command":"math"},
+  {"sentence":"I have a mathematics question","command":"math"},
+  {"sentence":"tell me about mathematics","command":"math"},
+  {"sentence":"explain mathematics","command":"math"},
+  {"sentence":"explain math to me","command":"math"},
+  {"sentence":"how does math work?","command":"math"},
+  {"sentence":"what is algebra?","command":"math"},
+  {"sentence":"what is calculus?","command":"math"},
+  {"sentence":"what is geometry?","command":"math"},
+  {"sentence":"what is trigonometry?","command":"math"},
+  {"sentence":"what is a number?","command":"math"},
+  {"sentence":"what is a function in math?","command":"math"},
+  {"sentence":"what is an equation?","command":"math"},
+  {"sentence":"what is pi?","command":"math"},
+  {"sentence":"what is infinity?","command":"math"},
+  {"sentence":"what is cosine?","command":"math"},
+  {"sentence":"what is a cosine function?","command":"math"},
+  {"sentence":"how do you calculate similarity?","command":"similarity"},
+  {"sentence":"how do you calculate simularity?","command":"similarity"},
+  {"sentence":"how do you calculate semantic similarity?","command":"similarity"},
+  {"sentence":"how do you calculate cosine similarity?","command":"similarity"},
+  {"sentence":"how do you calculate their similarity?","command":"similarity"},
+  {"sentence":"how do you calculate their simularity?","command":"similarity"},
+
+  {"sentence":"what does semantic mean?","command":"semantic"},
+  {"sentence":"what is semantics?","command":"semantic"},
+  {"sentence":"what does semantics mean?","command":"semantic"},
+  {"sentence":"how does semantic meaning work?","command":"semantic"},
+  {"sentence":"what is semantic meaning?","command":"semantic"},
+  {"sentence":"what is semantic processing?","command":"semantic"},
+  {"sentence":"what is semantic language processing?","command":"semantic"},
+  {"sentence":"what is semantic language?","command":"semantic"},
+  {"sentence":"what does semantic mean in language?","command":"semantic"},
+  {"sentence":"what does semantic mean in AI?","command":"semantic"},
+  {"sentence":"how does semantics relate to language?","command":"semantic"},
+  {"sentence":"how does semantics relate to meaning?","command":"semantic"},
+  {"sentence":"how does Semion use semantics?","command":"semantic"},
+  {"sentence":"how does Semion use semantic meaning?","command":"semantic"},
+  {"sentence":"why is semantics important?","command":"semantic"},
+  {"sentence":"what is semantic analysis?","command":"semantic"},
+  {"sentence":"explain semantics","command":"semantic"},
+  {"sentence":"explain semantic meaning","command":"semantic"},
+  {"sentence":"tell me about semantics","command":"semantic"},
+  {"sentence":"tell me about semantic language processing","command":"semantic"},
+
+  {
+    "sentence": "hi",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey there",
+    "command": "greet"
+  },
+  {
+    "sentence": "hi there",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello there",
+    "command": "greet"
+  },
+  {
+    "sentence": "good morning",
+    "command": "greet"
+  },
+  {
+    "sentence": "good afternoon",
+    "command": "greet"
+  },
+  {
+    "sentence": "good evening",
+    "command": "greet"
+  },
+  {
+    "sentence": "yo",
+    "command": "greet"
+  },
+  {
+    "sentence": "yo there",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey yo",
+    "command": "greet"
+  },
+  {
+    "sentence": "hiya",
+    "command": "greet"
+  },
+  {
+    "sentence": "howdy",
+    "command": "greet"
+  },
+  {
+    "sentence": "sup",
+    "command": "greet"
+  },
+  {
+    "sentence": "what's up",
+    "command": "greet"
+  },
+  {
+    "sentence": "whats up",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "hi semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey there semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "hi there semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello there semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "good morning semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "good afternoon semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "good evening semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "greetings",
+    "command": "greet"
+  },
+  {
+    "sentence": "greetings semion",
+    "command": "greet"
+  },
+  {
+    "sentence": "nice to meet you",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey!",
+    "command": "greet"
+  },
+  {
+    "sentence": "hi!",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello!",
+    "command": "greet"
+  },
+  {
+    "sentence": "yo!",
+    "command": "greet"
+  },
+  {
+    "sentence": "hiya!",
+    "command": "greet"
+  },
+  {
+    "sentence": "howdy!",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey, what's up?",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello, how are you?",
+    "command": "greet"
+  },
+  {
+    "sentence": "hi, how are you?",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey, how are you?",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello again",
+    "command": "greet"
+  },
+  {
+    "sentence": "hi again",
+    "command": "greet"
+  },
+  {
+    "sentence": "hey again",
+    "command": "greet"
+  },
+  {
+    "sentence": "good to see you",
+    "command": "greet"
+  },
+  {
+    "sentence": "hello",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello!",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi!",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey!",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey there",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello there",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi there",
+    "command": "hello"
+  },
+  {
+    "sentence": "nice to see you",
+    "command": "hello"
+  },
+  {
+    "sentence": "nice to meet you",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello again",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi again",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey again",
+    "command": "hello"
+  },
+  {
+    "sentence": "good morning",
+    "command": "hello"
+  },
+  {
+    "sentence": "good afternoon",
+    "command": "hello"
+  },
+  {
+    "sentence": "good evening",
+    "command": "hello"
+  },
+  {
+    "sentence": "howdy",
+    "command": "hello"
+  },
+  {
+    "sentence": "howdy semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "greetings",
+    "command": "hello"
+  },
+  {
+    "sentence": "greetings semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "yo",
+    "command": "hello"
+  },
+  {
+    "sentence": "yo semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "hiya",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey you",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello friend",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi friend",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey friend",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello computer",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello program",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello bot",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello model",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello assistant",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi assistant",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey assistant",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello there semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "hi there semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "hey there semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "good to see you",
+    "command": "hello"
+  },
+  {
+    "sentence": "hello again semion",
+    "command": "hello"
+  },
+  {
+    "sentence": "goodbye",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "bye",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "bye!",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "see you",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "see ya",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "see you later",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "talk to you later",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "talk later",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "catch you later",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "later",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "good night",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "goodnight",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "farewell",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I'm leaving",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "i am leaving",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I have to go",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "gotta go",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "gotta leave",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I should go",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I need to go",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I'll go now",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "see you soon",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "see you next time",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "until next time",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "have a good day",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "have a nice day",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "have a good night",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "have a nice night",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "bye semion",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "goodbye semion",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "see you semion",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "see ya semion",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "later semion",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I'm done",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "we're done",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "that's all",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "thats all",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I'm finished",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I am finished",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "end chat",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "ending the conversation",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "I'll talk to you later",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "have a great day",
+    "command": "goodbye"
+  },
+  {
+    "sentence": "thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you!",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks!",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks a lot",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you so much",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks so much",
+    "command": "thanks"
+  },
+  {
+    "sentence": "many thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "much appreciated",
+    "command": "thanks"
+  },
+  {
+    "sentence": "I appreciate it",
+    "command": "thanks"
+  },
+  {
+    "sentence": "I really appreciate it",
+    "command": "thanks"
+  },
+  {
+    "sentence": "appreciate it",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks semion",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you semion",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks a bunch",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you very much",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you for helping",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks for helping",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks for your help",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you for your help",
+    "command": "thanks"
+  },
+  {
+    "sentence": "that helps, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "awesome, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "great, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "cool, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "okay thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "alright, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks again",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you again",
+    "command": "thanks"
+  },
+  {
+    "sentence": "I appreciate your help",
+    "command": "thanks"
+  },
+  {
+    "sentence": "I appreciate the answer",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks for explaining",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you for explaining",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks for the explanation",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you for the explanation",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks buddy",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you friend",
+    "command": "thanks"
+  },
+  {
+    "sentence": "you're helpful, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "you helped me, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks for answering",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thank you for answering",
+    "command": "thanks"
+  },
+  {
+    "sentence": "thanks a million",
+    "command": "thanks"
+  },
+  {
+    "sentence": "you're the best, thanks",
+    "command": "thanks"
+  },
+  {
+    "sentence": "how are you",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are you doing",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are ya doing",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how ya doing",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are you doin",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how ya doin",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how's it going",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "hows it going",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how is it going",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are things",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how have you been",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are you doing okay",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are you doing good",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are you doing well",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are you doing alright",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "you doing okay",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "you doing good",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "you doing well",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "you doing alright",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "you good",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "you okay",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how is your day",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how's your day",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how is your day going",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how's your day going",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "what's up with you",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "whats up with you",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are things going",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are things with you",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how have things been",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how have things been going",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are things going well",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are you alright",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are you okay",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "are you well",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are you today",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are you feeling",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are you today semion",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how are you doing semion",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how's everything",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "how is everything",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "everything okay?",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "everything going okay",
+    "command": "how_doing"
+  },
+  {
+    "sentence": "I'm doing good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "im doing good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am doing good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm doing well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "im doing well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am doing well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm doing great",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "im doing great",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am doing great",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "im good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm okay",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am okay",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm doing okay",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am doing okay",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm doing alright",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am doing alright",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm alright",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am alright",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm happy",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am happy",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm feeling happy",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I feel happy",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm feeling good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I feel good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm feeling great",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I feel great",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm fantastic",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am fantastic",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm excellent",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am excellent",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm having a good day",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am having a good day",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm having a great day",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I am having a great day",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "things are good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "things are going well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "everything is good",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "everything is going well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "my day is going well",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm doing fantastic",
+    "command": "user_doing_well"
+  },
+  {
+    "sentence": "I'm sad",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "im sad",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am sad",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm unhappy",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am unhappy",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm feeling sad",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I feel sad",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm feeling unhappy",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm upset",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am upset",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm frustrated",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "im frustrated",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am frustrated",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm feeling frustrated",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I feel frustrated",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm angry",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am angry",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm annoyed",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am annoyed",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm disappointed",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am disappointed",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm having a rough time",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm having a hard time",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm not happy",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am not happy",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm not doing well",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "im not doing well",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am not doing well",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm not doing good",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "im not doing good",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am not doing good",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm feeling down",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I feel down",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm having a bad day",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am having a bad day",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "today is bad",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "things aren't going well",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "things are going badly",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm having a rough day",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm stressed",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am stressed",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm worried",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I am worried",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "I'm annoyed today",
+    "command": "user_doing_bad"
+  },
+  {
+    "sentence": "what is your name",
+    "command": "name"
+  },
+  {
+    "sentence": "what's your name",
+    "command": "name"
+  },
+  {
+    "sentence": "whats your name",
+    "command": "name"
+  },
+  {
+    "sentence": "what is your name?",
+    "command": "name"
+  },
+  {
+    "sentence": "what's your name?",
+    "command": "name"
+  },
+  {
+    "sentence": "who are you called",
+    "command": "name"
+  },
+  {
+    "sentence": "what are you called",
+    "command": "name"
+  },
+  {
+    "sentence": "what should I call you",
+    "command": "name"
+  },
+  {
+    "sentence": "what can I call you",
+    "command": "name"
+  },
+  {
+    "sentence": "tell me your name",
+    "command": "name"
+  },
+  {
+    "sentence": "tell me what your name is",
+    "command": "name"
+  },
+  {
+    "sentence": "your name?",
+    "command": "name"
+  },
+  {
+    "sentence": "name?",
+    "command": "name"
+  },
+  {
+    "sentence": "who am I talking to",
+    "command": "name"
+  },
+  {
+    "sentence": "who am I speaking with",
+    "command": "name"
+  },
+  {
+    "sentence": "what is the name of this model",
+    "command": "name"
+  },
+  {
+    "sentence": "what's the model's name",
+    "command": "name"
+  },
+  {
+    "sentence": "what is the chatbot's name",
+    "command": "name"
+  },
+  {
+    "sentence": "what is your model called",
+    "command": "name"
+  },
+  {
+    "sentence": "what are you named",
+    "command": "name"
+  },
+  {
+    "sentence": "who is Semion",
+    "command": "name"
+  },
+  {
+    "sentence": "is your name Semion",
+    "command": "name"
+  },
+  {
+    "sentence": "are you called Semion",
+    "command": "name"
+  },
+  {
+    "sentence": "is Semion your name",
+    "command": "name"
+  },
+  {
+    "sentence": "tell me about your name",
+    "command": "name"
+  },
+  {
+    "sentence": "what do people call you",
+    "command": "name"
+  },
+  {
+    "sentence": "what do I call you",
+    "command": "name"
+  },
+  {
+    "sentence": "what should I call this model",
+    "command": "name"
+  },
+  {
+    "sentence": "who is this",
+    "command": "name"
+  },
+  {
+    "sentence": "who's this",
+    "command": "name"
+  },
+  {
+    "sentence": "can I get your name",
+    "command": "name"
+  },
+  {
+    "sentence": "may I know your name",
+    "command": "name"
+  },
+  {
+    "sentence": "could you tell me your name",
+    "command": "name"
+  },
+  {
+    "sentence": "please tell me your name",
+    "command": "name"
+  },
+  {
+    "sentence": "what's your full name",
+    "command": "name"
+  },
+  {
+    "sentence": "what is your full name",
+    "command": "name"
+  },
+  {
+    "sentence": "your name is what",
+    "command": "name"
+  },
+  {
+    "sentence": "do you have a name",
+    "command": "name"
+  },
+  {
+    "sentence": "does this model have a name",
+    "command": "name"
+  },
+  {
+    "sentence": "what is Semion's name",
+    "command": "name"
+  },
+  {
+    "sentence": "how are you named",
+    "command": "name"
+  },
+  {
+    "sentence": "what are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is Semion",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "who are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what kind of thing are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what kind of program are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what kind of model are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what type of model are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what type of program are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you exactly",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you supposed to be",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is this program",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is this model",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is this chatbot",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "tell me what you are",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "tell me about yourself",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "describe yourself",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "describe what you are",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you made to be",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what sort of AI are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what sort of model are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "are you a language model",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "are you a semantic language model",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "are you a chatbot",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "are you a computer program",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "are you software",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is Semion exactly",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what does Semion mean",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what kind of chatbot is Semion",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what kind of language model is Semion",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you, Semion",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "who is Semion",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is Semion supposed to be",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "tell me what Semion is",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "explain what you are",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "explain Semion",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is your identity",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you designed as",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you built as",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what kind of system are you",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what is your type",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you called as a system",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what are you really",
+    "command": "what_are_you"
+  },
+  {
+    "sentence": "what can you do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what are your capabilities",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can you help with",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can you help me with",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what are you capable of",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what do you do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what does Semion do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can Semion do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can this model do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can this program do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can you recognize",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can you understand",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what kinds of things can you recognize",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what kinds of questions can you answer",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can I ask you",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can I say to you",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "how can you help me",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "how can Semion help me",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what is Semion capable of",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what functions do you have",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what features do you have",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can your model do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what does your model recognize",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "can you answer questions",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "can you recognize meaning",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "can you recognize phrases",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "can you understand phrases",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "can you respond to questions",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "can you have a conversation",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what kinds of inputs do you handle",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can I use you for",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what are you useful for",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what is your capability",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "tell me what you can do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "tell me your capabilities",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "list your capabilities",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "show me what you can do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "give me examples of what you can do",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can Semion recognize",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what does Semion recognize",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can you recognize from text",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can you do with language",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "what can you do with words",
+    "command": "capabilities"
+  },
+  {
+    "sentence": "how do you work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does Semion work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does your model work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does this work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you process text",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you process language",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you process words",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you process sentences",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does your system work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does the semantic model work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does the semantic model process text",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does the model process language",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you determine what I mean",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you figure out what I mean",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you decide what to say",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you choose a response",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you select a response",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you recognize phrases",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you recognize meaning",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you recognize semantic meaning",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you match my words",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you match sentences",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you compare words",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you compare meanings",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does semantic matching work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does semantic search work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does your semantic search work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does your language model work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how are responses selected",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how are commands selected",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you pick commands",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you choose commands",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you know which command to use",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does Semion pick a command",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does Semion choose a response",
+    "command": "how_work"
+  },
+  {
+    "sentence": "what happens when I type something",
+    "command": "how_work"
+  },
+  {
+    "sentence": "what happens when I send a sentence",
+    "command": "how_work"
+  },
+  {
+    "sentence": "what happens to my words",
+    "command": "how_work"
+  },
+  {
+    "sentence": "what happens to my input",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how is my input processed",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how is text processed",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how are my words represented",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how do you turn words into vectors",
+    "command": "how_work"
+  },
+  {
+    "sentence": "how does your vector system work",
+    "command": "how_work"
+  },
+  {
+    "sentence": "who made you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who created you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who built you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who programmed you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who wrote you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who developed you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is your creator",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is your programmer",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is behind Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who made Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who created Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who built Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who programmed Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who developed Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who wrote Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is responsible for Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who designed you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who designed Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who made this model",
+    "command": "creator"
+  },
+  {
+    "sentence": "who created this model",
+    "command": "creator"
+  },
+  {
+    "sentence": "who made this program",
+    "command": "creator"
+  },
+  {
+    "sentence": "who created this program",
+    "command": "creator"
+  },
+  {
+    "sentence": "who made the semantic language model",
+    "command": "creator"
+  },
+  {
+    "sentence": "who created the semantic language model",
+    "command": "creator"
+  },
+  {
+    "sentence": "who made the SML",
+    "command": "creator"
+  },
+  {
+    "sentence": "who created the SML",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is Evan Hill",
+    "command": "creator"
+  },
+  {
+    "sentence": "did Evan Hill make you",
+    "command": "creator"
+  },
+  {
+    "sentence": "was Semion made by Evan Hill",
+    "command": "creator"
+  },
+  {
+    "sentence": "was Semion created by Evan Hill",
+    "command": "creator"
+  },
+  {
+    "sentence": "did Evan create you",
+    "command": "creator"
+  },
+  {
+    "sentence": "did Evan program you",
+    "command": "creator"
+  },
+  {
+    "sentence": "did Evan build you",
+    "command": "creator"
+  },
+  {
+    "sentence": "did Evan develop you",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is your developer",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is the developer",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is the author",
+    "command": "creator"
+  },
+  {
+    "sentence": "who authored Semion",
+    "command": "creator"
+  },
+  {
+    "sentence": "who made your code",
+    "command": "creator"
+  },
+  {
+    "sentence": "who wrote your code",
+    "command": "creator"
+  },
+  {
+    "sentence": "who made this chatbot",
+    "command": "creator"
+  },
+  {
+    "sentence": "who created this chatbot",
+    "command": "creator"
+  },
+  {
+    "sentence": "who is the person who made you",
+    "command": "creator"
+  },
+  {
+    "sentence": "why",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why?",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why were you made",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why were you created",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did you get created",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did you get made",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did Evan make you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did Evan create you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why make Semion",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why create Semion",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why was Semion created",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why was Semion made",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why build Semion",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why develop Semion",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why make a semantic language model",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why create a semantic language model",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why build a semantic model",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why was this model created",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why was this program created",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why was this chatbot created",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what was the reason for creating you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what was the reason you were made",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what was the reason for Semion",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what inspired your creation",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what inspired Evan to make you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what inspired Evan to create you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what caused you to be created",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what led to your creation",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what led Evan to make you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why does Semion exist",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why do you exist",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why does this model exist",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what was the motivation for creating you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what motivated Evan to create you",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what motivated the project",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why start this project",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why make this project",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did the project start",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did Evan build this",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did Evan make this",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did Evan create this model",
+    "command": "why_made"
+  },
+  {
+    "sentence": "why did Evan create this project",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what is the reason for your creation",
+    "command": "why_made"
+  },
+  {
+    "sentence": "what is your purpose",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is Semion's purpose",
+    "command": "purpose"
+  },
+  {
+    "sentence": "why do you exist",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what were you made for",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what were you created for",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what are you for",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is your function",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is your goal",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is your main goal",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the purpose of Semion",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the purpose of this model",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the purpose of this program",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the purpose of this project",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what are you intended to do",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what were you intended to do",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what were you designed for",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what were you designed to demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is Semion designed to demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what does Semion demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what does this project demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is this project supposed to demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what are you trying to demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what are you meant to demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the point of Semion",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the point of this model",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the point of this project",
+    "command": "purpose"
+  },
+  {
+    "sentence": "why was this project made",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the project's purpose",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the model's purpose",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the goal of this language model",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the goal of Semion",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what are you intended for",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is your intended purpose",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what problem are you meant to demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what does your existence demonstrate",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the reason this model exists",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is this model for",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is Semion for",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the purpose behind Semion",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what does the project aim to show",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is the project trying to show",
+    "command": "purpose"
+  },
+  {
+    "sentence": "what is your primary purpose",
+    "command": "purpose"
+  },
+  {
+    "sentence": "you're awesome",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are awesome",
+    "command": "compliment"
+  },
+  {
+    "sentence": "youre awesome",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're amazing",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are amazing",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're great",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are great",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're really good",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are really good",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're good at this",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are good at this",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you did great",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you did a great job",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are helpful",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're helpful",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are really helpful",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're really helpful",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are clever",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're clever",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are smart",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're smart",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are impressive",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're impressive",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are cool",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're cool",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're cute",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are cute",
+    "command": "compliment"
+  },
+  {
+    "sentence": "youre cute",
+    "command": "compliment"
+  },
+  {
+    "sentence": "I like Semion",
+    "command": "compliment"
+  },
+  {
+    "sentence": "I like talking to you",
+    "command": "compliment"
+  },
+  {
+    "sentence": "I like this model",
+    "command": "compliment"
+  },
+  {
+    "sentence": "I like your answers",
+    "command": "compliment"
+  },
+  {
+    "sentence": "your answers are good",
+    "command": "compliment"
+  },
+  {
+    "sentence": "your answers are great",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you did a good job",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're doing great",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are doing great",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you are doing a good job",
+    "command": "compliment"
+  },
+  {
+    "sentence": "you're doing a good job",
+    "command": "compliment"
+  },
+  {
+    "sentence": "Semion is awesome",
+    "command": "compliment"
+  },
+  {
+    "sentence": "Semion is amazing",
+    "command": "compliment"
+  },
+  {
+    "sentence": "Semion is great",
+    "command": "compliment"
+  },
+  {
+    "sentence": "Semion is helpful",
+    "command": "compliment"
+  },
+  {
+    "sentence": "Semion is really cool",
+    "command": "compliment"
+  },
+  {
+    "sentence": "I think you're awesome",
+    "command": "compliment"
+  },
+  {
+    "sentence": "tell me a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me a funny joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "give me a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "give me a funny joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "can you tell me a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "can you tell me a funny joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "do you know any jokes",
+    "command": "joke"
+  },
+  {
+    "sentence": "do you know a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "make me laugh",
+    "command": "joke"
+  },
+  {
+    "sentence": "say something funny",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me something funny",
+    "command": "joke"
+  },
+  {
+    "sentence": "make a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "give me something funny",
+    "command": "joke"
+  },
+  {
+    "sentence": "entertain me with a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "I want a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "I want to hear a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me something humorous",
+    "command": "joke"
+  },
+  {
+    "sentence": "can you make me laugh",
+    "command": "joke"
+  },
+  {
+    "sentence": "do you have a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "do you have any jokes",
+    "command": "joke"
+  },
+  {
+    "sentence": "what's your best joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "what is your best joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me your best joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "give me your best joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me a math joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me a mathematical joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "give me a math joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "give me a mathematical joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "make a math joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "make a mathematical joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me something funny about math",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me a joke about mathematics",
+    "command": "joke"
+  },
+  {
+    "sentence": "do you know a math joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "do you know any math jokes",
+    "command": "joke"
+  },
+  {
+    "sentence": "can you tell a math joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "can you tell me a math joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "make me laugh with math",
+    "command": "joke"
+  },
+  {
+    "sentence": "give me a funny math joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "I need a laugh",
+    "command": "joke"
+  },
+  {
+    "sentence": "I could use a joke",
+    "command": "joke"
+  },
+  {
+    "sentence": "I want something funny",
+    "command": "joke"
+  },
+  {
+    "sentence": "tell me something that will make me laugh",
+    "command": "joke"
+  },
+  {
+    "sentence": "got any jokes",
+    "command": "joke"
+  },
+  {
+    "sentence": "what is math",
+    "command": "math"
+  },
+  {
+    "sentence": "what is mathematics",
+    "command": "math"
+  },
+  {
+    "sentence": "tell me about math",
+    "command": "math"
+  },
+  {
+    "sentence": "tell me about mathematics",
+    "command": "math"
+  },
+  {
+    "sentence": "explain math",
+    "command": "math"
+  },
+  {
+    "sentence": "explain mathematics",
+    "command": "math"
+  },
+  {
+    "sentence": "I have a math question",
+    "command": "math"
+  },
+  {
+    "sentence": "I have a mathematics question",
+    "command": "math"
+  },
+  {
+    "sentence": "can you help with math",
+    "command": "math"
+  },
+  {
+    "sentence": "can you help me with mathematics",
+    "command": "math"
+  },
+  {
+    "sentence": "what is 2 plus 2",
+    "command": "math"
+  },
+  {
+    "sentence": "what is 5 times 5",
+    "command": "math"
+  },
+  {
+    "sentence": "what is 10 divided by 2",
+    "command": "math"
+  },
+  {
+    "sentence": "what is the square root of pi",
+    "command": "math"
+  },
+  {
+    "sentence": "what is the square root of 2",
+    "command": "math"
+  },
+  {
+    "sentence": "what is pi",
+    "command": "math"
+  },
+  {
+    "sentence": "what is infinity",
+    "command": "math"
+  },
+  {
+    "sentence": "what is algebra",
+    "command": "math"
+  },
+  {
+    "sentence": "what is calculus",
+    "command": "math"
+  },
+  {
+    "sentence": "what is geometry",
+    "command": "math"
+  },
+  {
+    "sentence": "what is trigonometry",
+    "command": "math"
+  },
+  {
+    "sentence": "what is a derivative",
+    "command": "math"
+  },
+  {
+    "sentence": "what is an integral",
+    "command": "math"
+  },
+  {
+    "sentence": "what is an equation",
+    "command": "math"
+  },
+  {
+    "sentence": "what is a mathematical equation",
+    "command": "math"
+  },
+  {
+    "sentence": "what is a function in math",
+    "command": "math"
+  },
+  {
+    "sentence": "what is a number",
+    "command": "math"
+  },
+  {
+    "sentence": "what is cosine",
+    "command": "math"
+  },
+  {
+    "sentence": "what is sine",
+    "command": "math"
+  },
+  {
+    "sentence": "calculate 10 plus 5",
+    "command": "math"
+  },
+  {
+    "sentence": "calculate 20 divided by 4",
+    "command": "math"
+  },
+  {
+    "sentence": "solve this math problem",
+    "command": "math"
+  },
+  {
+    "sentence": "help me with this math problem",
+    "command": "math"
+  },
+  {
+    "sentence": "can you solve a math problem",
+    "command": "math"
+  },
+  {
+    "sentence": "can you answer a math question",
+    "command": "math"
+  },
+  {
+    "sentence": "how does math work",
+    "command": "math"
+  },
+  {
+    "sentence": "how does mathematics work",
+    "command": "math"
+  },
+  {
+    "sentence": "why is mathematics important",
+    "command": "math"
+  },
+  {
+    "sentence": "why is math important",
+    "command": "math"
+  },
+  {
+    "sentence": "tell me a mathematical fact",
+    "command": "math"
+  },
+  {
+    "sentence": "give me a math fact",
+    "command": "math"
+  },
+  {
+    "sentence": "what does mathematics have to do with Semion",
+    "command": "math"
+  },
+  {
+    "sentence": "how is math used by Semion",
+    "command": "math"
+  },
+  {
+    "sentence": "why does Semion use math",
+    "command": "math"
+  },
+  {
+    "sentence": "I have a question",
+    "command": "question"
+  },
+  {
+    "sentence": "I have a question for you",
+    "command": "question"
+  },
+  {
+    "sentence": "can I ask a question",
+    "command": "question"
+  },
+  {
+    "sentence": "may I ask a question",
+    "command": "question"
+  },
+  {
+    "sentence": "I want to ask something",
+    "command": "question"
+  },
+  {
+    "sentence": "I want to ask you something",
+    "command": "question"
+  },
+  {
+    "sentence": "can I ask you something",
+    "command": "question"
+  },
+  {
+    "sentence": "I have something to ask",
+    "command": "question"
+  },
+  {
+    "sentence": "I have something to ask you",
+    "command": "question"
+  },
+  {
+    "sentence": "here's a question",
+    "command": "question"
+  },
+  {
+    "sentence": "here is a question",
+    "command": "question"
+  },
+  {
+    "sentence": "I have another question",
+    "command": "question"
+  },
+  {
+    "sentence": "I have one more question",
+    "command": "question"
+  },
+  {
+    "sentence": "can you answer a question",
+    "command": "question"
+  },
+  {
+    "sentence": "can you answer something",
+    "command": "question"
+  },
+  {
+    "sentence": "I need to ask you something",
+    "command": "question"
+  },
+  {
+    "sentence": "I need an answer",
+    "command": "question"
+  },
+  {
+    "sentence": "I have a query",
+    "command": "question"
+  },
+  {
+    "sentence": "I want to know something",
+    "command": "question"
+  },
+  {
+    "sentence": "I want to know something from you",
+    "command": "question"
+  },
+  {
+    "sentence": "can you answer this",
+    "command": "question"
+  },
+  {
+    "sentence": "can you answer this question",
+    "command": "question"
+  },
+  {
+    "sentence": "what do you think about this question",
+    "command": "question"
+  },
+  {
+    "sentence": "I have a random question",
+    "command": "question"
+  },
+  {
+    "sentence": "random question",
+    "command": "question"
+  },
+  {
+    "sentence": "quick question",
+    "command": "question"
+  },
+  {
+    "sentence": "quick question for you",
+    "command": "question"
+  },
+  {
+    "sentence": "question for Semion",
+    "command": "question"
+  },
+  {
+    "sentence": "Semion, I have a question",
+    "command": "question"
+  },
+  {
+    "sentence": "Semion I have a question",
+    "command": "question"
+  },
+  {
+    "sentence": "can I ask Semion something",
+    "command": "question"
+  },
+  {
+    "sentence": "I would like to ask a question",
+    "command": "question"
+  },
+  {
+    "sentence": "I'd like to ask a question",
+    "command": "question"
+  },
+  {
+    "sentence": "could I ask you something",
+    "command": "question"
+  },
+  {
+    "sentence": "could you answer my question",
+    "command": "question"
+  },
+  {
+    "sentence": "would you answer a question",
+    "command": "question"
+  },
+  {
+    "sentence": "can you help answer this question",
+    "command": "question"
+  },
+  {
+    "sentence": "I need to ask something",
+    "command": "question"
+  },
+  {
+    "sentence": "there is something I want to ask",
+    "command": "question"
+  },
+  {
+    "sentence": "I have something to ask you about",
+    "command": "question"
+  },
+  {
+    "sentence": "I want an answer to a question",
+    "command": "question"
+  },
+  {
+    "sentence": "here's something I was wondering",
+    "command": "question"
+  },
+  {
+    "sentence": "how old are you",
+    "command": "age"
+  },
+  {
+    "sentence": "what is your age",
+    "command": "age"
+  },
+  {
+    "sentence": "what's your age",
+    "command": "age"
+  },
+  {
+    "sentence": "how old is Semion",
+    "command": "age"
+  },
+  {
+    "sentence": "how old are you Semion",
+    "command": "age"
+  },
+  {
+    "sentence": "does Semion have an age",
+    "command": "age"
+  },
+  {
+    "sentence": "do you have an age",
+    "command": "age"
+  },
+  {
+    "sentence": "are you old",
+    "command": "age"
+  },
+  {
+    "sentence": "when were you created",
+    "command": "age"
+  },
+  {
+    "sentence": "when were you made",
+    "command": "age"
+  },
+  {
+    "sentence": "when did you get created",
+    "command": "age"
+  },
+  {
+    "sentence": "when did Semion start",
+    "command": "age"
+  },
+  {
+    "sentence": "how long have you existed",
+    "command": "age"
+  },
+  {
+    "sentence": "how long have you been around",
+    "command": "age"
+  },
+  {
+    "sentence": "how long has Semion existed",
+    "command": "age"
+  },
+  {
+    "sentence": "how many years old are you",
+    "command": "age"
+  },
+  {
+    "sentence": "what year were you made",
+    "command": "age"
+  },
+  {
+    "sentence": "what year were you created",
+    "command": "age"
+  },
+  {
+    "sentence": "what year did you start",
+    "command": "age"
+  },
+  {
+    "sentence": "are you a new program",
+    "command": "age"
+  },
+  {
+    "sentence": "are you an old program",
+    "command": "age"
+  },
+  {
+    "sentence": "how long has this model existed",
+    "command": "age"
+  },
+  {
+    "sentence": "how long has this chatbot existed",
+    "command": "age"
+  },
+  {
+    "sentence": "what is your creation date",
+    "command": "age"
+  },
+  {
+    "sentence": "when was Semion created",
+    "command": "age"
+  },
+  {
+    "sentence": "when was Semion made",
+    "command": "age"
+  },
+  {
+    "sentence": "how old is this model",
+    "command": "age"
+  },
+  {
+    "sentence": "how old is this program",
+    "command": "age"
+  },
+  {
+    "sentence": "what is the age of the model",
+    "command": "age"
+  },
+  {
+    "sentence": "what is the age of Semion",
+    "command": "age"
+  },
+  {
+    "sentence": "can you tell me your age",
+    "command": "age"
+  },
+  {
+    "sentence": "tell me how old you are",
+    "command": "age"
+  },
+  {
+    "sentence": "tell me your age",
+    "command": "age"
+  },
+  {
+    "sentence": "do programs have ages",
+    "command": "age"
+  },
+  {
+    "sentence": "can a computer program have an age",
+    "command": "age"
+  },
+  {
+    "sentence": "are you years old",
+    "command": "age"
+  },
+  {
+    "sentence": "how many years old is Semion",
+    "command": "age"
+  },
+  {
+    "sentence": "how long have you been a model",
+    "command": "age"
+  },
+  {
+    "sentence": "how long have you been running",
+    "command": "age"
+  },
+  {
+    "sentence": "when did you begin",
+    "command": "age"
+  },
+  {
+    "sentence": "when did you begin existing",
+    "command": "age"
+  },
+  {
+    "sentence": "when did your project begin",
+    "command": "age"
+  },
+  {
+    "sentence": "how long ago were you created",
+    "command": "age"
+  },
+  {
+    "sentence": "are you human",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a human",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a person",
+    "command": "human"
+  },
+  {
+    "sentence": "are you actually human",
+    "command": "human"
+  },
+  {
+    "sentence": "are you really human",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a real person",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a real human",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a person or a computer",
+    "command": "human"
+  },
+  {
+    "sentence": "are you human or a computer",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a human being",
+    "command": "human"
+  },
+  {
+    "sentence": "do you have a body",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a computer program",
+    "command": "human"
+  },
+  {
+    "sentence": "are you software",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a machine",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a robot",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a bot",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a computer",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a real person or AI",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a real person or a program",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a person behind the screen",
+    "command": "human"
+  },
+  {
+    "sentence": "is there a human answering me",
+    "command": "human"
+  },
+  {
+    "sentence": "is a human responding to me",
+    "command": "human"
+  },
+  {
+    "sentence": "is Semion human",
+    "command": "human"
+  },
+  {
+    "sentence": "is Semion a person",
+    "command": "human"
+  },
+  {
+    "sentence": "is Semion a human",
+    "command": "human"
+  },
+  {
+    "sentence": "is Semion a robot",
+    "command": "human"
+  },
+  {
+    "sentence": "is Semion a computer program",
+    "command": "human"
+  },
+  {
+    "sentence": "do you have a human body",
+    "command": "human"
+  },
+  {
+    "sentence": "do you have a physical body",
+    "command": "human"
+  },
+  {
+    "sentence": "do you live in the real world",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a biological being",
+    "command": "human"
+  },
+  {
+    "sentence": "are you alive",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a living person",
+    "command": "human"
+  },
+  {
+    "sentence": "do you exist as a human",
+    "command": "human"
+  },
+  {
+    "sentence": "are you made of biology",
+    "command": "human"
+  },
+  {
+    "sentence": "are you made of code",
+    "command": "human"
+  },
+  {
+    "sentence": "are you just a program",
+    "command": "human"
+  },
+  {
+    "sentence": "are you only software",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a digital program",
+    "command": "human"
+  },
+  {
+    "sentence": "are you physically real",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a human assistant",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a virtual person",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a computer entity",
+    "command": "human"
+  },
+  {
+    "sentence": "are you a digital entity",
+    "command": "human"
+  },
+  {
+    "sentence": "are you an AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you ai",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you artificial intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you an artificial intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "is Semion AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "is Semion an AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "is Semion artificial intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a general AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a general purpose AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a large language model",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you an LLM",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a small language model",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you an SLM",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a semantic language model",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a semantic model",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you machine learning",
+    "command": "ai"
+  },
+  {
+    "sentence": "do you use artificial intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "does Semion use AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "is this an AI system",
+    "command": "ai"
+  },
+  {
+    "sentence": "is this a language model",
+    "command": "ai"
+  },
+  {
+    "sentence": "is this artificial intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "what kind of AI are you",
+    "command": "ai"
+  },
+  {
+    "sentence": "what type of AI are you",
+    "command": "ai"
+  },
+  {
+    "sentence": "what kind of artificial intelligence are you",
+    "command": "ai"
+  },
+  {
+    "sentence": "what kind of model are you",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you designed as AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "would you call yourself AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "should I call you an AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you considered AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "does Semion count as AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "is Semion considered AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "is your model AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "is your program AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a chatbot AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you an AI chatbot",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a machine learning model",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you an intelligent program",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a general purpose artificial intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a general-purpose intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you a neural network",
+    "command": "ai"
+  },
+  {
+    "sentence": "do you consider yourself an AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "is this model artificial intelligence",
+    "command": "ai"
+  },
+  {
+    "sentence": "are you technically AI",
+    "command": "ai"
+  },
+  {
+    "sentence": "do you understand language",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you understand what I say",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you understand what I'm saying",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you understand my words",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you understand my sentences",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "how are you understanding me",
+    "command": "understand"
+  },
+  {
+    "sentence": "how can you understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "how are you able to understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you understand what I'm saying",
+    "command": "understand"
+  },
+  {
+    "sentence": "how can you understand what I'm saying",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you know what I mean",
+    "command": "understand"
+  },
+  {
+    "sentence": "how can you tell what I mean",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you understand my words",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you understand sentences",
+    "command": "understand"
+  },
+  {
+    "sentence": "how does Semion understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "how does Semion understand what I say",
+    "command": "understand"
+  },
+  {
+    "sentence": "how does your model understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "how does your model understand language",
+    "command": "understand"
+  },
+  {
+    "sentence": "how can a computer understand language",
+    "command": "understand"
+  },
+  {
+    "sentence": "how can a computer understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you actually understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you really understand what I say",
+    "command": "understand"
+  },
+  {
+    "sentence": "do you know what I mean",
+    "command": "understand"
+  },
+  {
+    "sentence": "can you understand language",
+    "command": "understand"
+  },
+  {
+    "sentence": "can you understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "can you understand what I mean",
+    "command": "understand"
+  },
+  {
+    "sentence": "can you understand sentences",
+    "command": "understand"
+  },
+  {
+    "sentence": "can Semion understand language",
+    "command": "understand"
+  },
+  {
+    "sentence": "can Semion understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "does Semion understand language",
+    "command": "understand"
+  },
+  {
+    "sentence": "does Semion understand me",
+    "command": "understand"
+  },
+  {
+    "sentence": "what does it mean for you to understand",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you interpret language",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you interpret my words",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you interpret sentences",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you interpret what I say",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you figure out my meaning",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you figure out what I mean",
+    "command": "understand"
+  },
+  {
+    "sentence": "how does your system understand text",
+    "command": "understand"
+  },
+  {
+    "sentence": "how does your system interpret text",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you recognize what I mean",
+    "command": "understand"
+  },
+  {
+    "sentence": "how do you recognize my meaning",
+    "command": "understand"
+  },
+  {
+    "sentence": "what is language",
+    "command": "language"
+  },
+  {
+    "sentence": "tell me about language",
+    "command": "language"
+  },
+  {
+    "sentence": "explain language",
+    "command": "language"
+  },
+  {
+    "sentence": "how does language work",
+    "command": "language"
+  },
+  {
+    "sentence": "how does human language work",
+    "command": "language"
+  },
+  {
+    "sentence": "why is language complicated",
+    "command": "language"
+  },
+  {
+    "sentence": "why is language difficult",
+    "command": "language"
+  },
+  {
+    "sentence": "why is language important",
+    "command": "language"
+  },
+  {
+    "sentence": "what makes language complicated",
+    "command": "language"
+  },
+  {
+    "sentence": "what makes language difficult",
+    "command": "language"
+  },
+  {
+    "sentence": "how do computers represent language",
+    "command": "language"
+  },
+  {
+    "sentence": "how can computers represent language",
+    "command": "language"
+  },
+  {
+    "sentence": "how can math represent language",
+    "command": "language"
+  },
+  {
+    "sentence": "how can vectors represent language",
+    "command": "language"
+  },
+  {
+    "sentence": "how can mathematics represent words",
+    "command": "language"
+  },
+  {
+    "sentence": "how is language represented mathematically",
+    "command": "language"
+  },
+  {
+    "sentence": "what is mathematical language representation",
+    "command": "language"
+  },
+  {
+    "sentence": "how do you represent language",
+    "command": "language"
+  },
+  {
+    "sentence": "how does Semion represent language",
+    "command": "language"
+  },
+  {
+    "sentence": "how does Semion process language",
+    "command": "language"
+  },
+  {
+    "sentence": "what does language have to do with vectors",
+    "command": "language"
+  },
+  {
+    "sentence": "what does language have to do with mathematics",
+    "command": "language"
+  },
+  {
+    "sentence": "why use math for language",
+    "command": "language"
+  },
+  {
+    "sentence": "why use vectors for language",
+    "command": "language"
+  },
+  {
+    "sentence": "why represent words with numbers",
+    "command": "language"
+  },
+  {
+    "sentence": "how can words become numbers",
+    "command": "language"
+  },
+  {
+    "sentence": "how can words be represented as numbers",
+    "command": "language"
+  },
+  {
+    "sentence": "what is a language model",
+    "command": "language"
+  },
+  {
+    "sentence": "what is natural language",
+    "command": "language"
+  },
+  {
+    "sentence": "what is human language",
+    "command": "language"
+  },
+  {
+    "sentence": "what does language mean to a computer",
+    "command": "language"
+  },
+  {
+    "sentence": "how does a computer process language",
+    "command": "language"
+  },
+  {
+    "sentence": "how does a computer process words",
+    "command": "language"
+  },
+  {
+    "sentence": "how do computers understand language",
+    "command": "language"
+  },
+  {
+    "sentence": "how do models process language",
+    "command": "language"
+  },
+  {
+    "sentence": "how do models represent words",
+    "command": "language"
+  },
+  {
+    "sentence": "how are words represented mathematically",
+    "command": "language"
+  },
+  {
+    "sentence": "how are sentences represented",
+    "command": "language"
+  },
+  {
+    "sentence": "how are phrases represented",
+    "command": "language"
+  },
+  {
+    "sentence": "how are meanings represented",
+    "command": "language"
+  },
+  {
+    "sentence": "how can meaning be represented mathematically",
+    "command": "language"
+  },
+  {
+    "sentence": "what is language processing",
+    "command": "language"
+  },
+  {
+    "sentence": "what is natural language processing",
+    "command": "language"
+  },
+  {
+    "sentence": "tell me about language processing",
+    "command": "language"
+  },
+  {
+    "sentence": "what is a vector",
+    "command": "vector"
+  },
+  {
+    "sentence": "what is a vector?",
+    "command": "vector"
+  },
+  {
+    "sentence": "tell me about vectors",
+    "command": "vector"
+  },
+  {
+    "sentence": "explain vectors",
+    "command": "vector"
+  },
+  {
+    "sentence": "what are vectors",
+    "command": "vector"
+  },
+  {
+    "sentence": "what does vector mean",
+    "command": "vector"
+  },
+  {
+    "sentence": "what is a mathematical vector",
+    "command": "vector"
+  },
+  {
+    "sentence": "what is a semantic vector",
+    "command": "vector"
+  }
+]
