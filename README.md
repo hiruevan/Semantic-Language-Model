@@ -141,21 +141,21 @@ Each command has an associated response.
 
 A simplified response dictionary looks like:
 
-```javascript
-const responses = {
-    greet:
+```python
+responses = {
+    "greet":
         "Hi there! How can I help you?",
 
-    name:
+    "name":
         "My name is Semion, a Semantic Language Model!",
 
-    creator:
+    "creator":
         "I was made by Evan Hill.",
 
-    vector:
+    "vector":
         "A vector is a mathematical representation containing a collection of numerical values.",
 
-    similarity:
+    "similarity":
         "I use cosine similarity to compare semantic vectors and determine which meaning is closest to your input."
 };
 ```
@@ -257,17 +257,6 @@ tell
 
 rather than understanding the complete context.
 
-### Short inputs are difficult
-
-Very short messages such as:
-
-```text
-"yo"
-"yeah"
-"k"
-"tell"
-```
-
 contain very little semantic information.
 
 Consequently, they can be difficult to classify correctly.
@@ -302,44 +291,6 @@ Instead of trying to build an enormous model capable of generating arbitrary tex
 The project asks a simple question:
 
 > **How much language understanding can be achieved with a relatively small mathematical model?**
-
-## Future Improvements
-
-Possible future improvements include:
-
-* Better sentence embeddings
-* More training examples
-* Improved handling of short messages
-* Context-aware classification
-* Conversation history
-* Better handling of ambiguous phrases
-* Confidence thresholds
-* An explicit `unknown` command
-* Improved tokenization
-* Better semantic vector generation
-* More sophisticated weighting of recent words
-* Multiple possible commands instead of only the closest command
-* Context-sensitive response selection
-
-## Project Structure
-
-A possible project structure is:
-
-```text
-Semion/
-├── main.py
-├── responses.js
-├── training_data.json
-├── vectors/
-│   └── ...
-├── static/
-│   ├── index.html
-│   ├── chat.js
-│   └── style.css
-└── README.md
-```
-
-The exact structure may vary depending on the implementation.
 
 ## Example Conversation
 
